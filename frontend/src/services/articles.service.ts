@@ -23,8 +23,15 @@ export const articlesService = {
     return data
   },
 
-  searchArticles: async (params: SearchArticlesParams): Promise<ArticleResponse[]> => {
-    const { data } = await apiClient.get<ArticleResponse[]>('/articles/search', { params })
-    return data
-  },
+  searchArticles: async (
+    params: SearchArticlesParams
+    ): Promise<ArticleListResponse> => {
+        const { data } =
+            await apiClient.get<ArticleListResponse>(
+                "/articles/search",
+                { params }
+            )
+
+        return data
+    },
 }

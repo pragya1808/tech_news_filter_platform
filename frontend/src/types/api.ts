@@ -1,4 +1,6 @@
-// ─── Typed schemas from openapi.json ────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
+// API Response Types
+// ─────────────────────────────────────────────────────────────────────────────
 
 export interface TopicResponse {
   id: number
@@ -12,8 +14,8 @@ export interface ArticleResponse {
   author: string | null
   source: string
   url: string
-  published_at: string | null  // ISO datetime
-  extracted_at: string         // ISO datetime
+  published_at: string | null
+  extracted_at: string
   topics: TopicResponse[]
 }
 
@@ -23,6 +25,66 @@ export interface ArticleListResponse {
   limit: number
   items: ArticleResponse[]
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Statistics
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface StatsResponse {
+  total_articles: number
+  total_topics: number
+  total_sources: number
+  articles_today: number
+  last_updated: string | null
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Analytics
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface AnalyticsOverviewResponse {
+  total_articles: number
+  total_sources: number
+  total_topics: number
+
+  avg_articles_per_day: number
+
+  first_article: string | null
+  latest_article: string | null
+}
+
+export interface SourceAnalytics {
+  source: string
+  count: number
+}
+
+export type AnalyticsSourcesResponse = SourceAnalytics[]
+
+export interface TopicAnalytics {
+  topic: string
+  count: number
+}
+
+export type AnalyticsTopicsResponse = TopicAnalytics[]
+
+export interface DailyAnalytics {
+  date: string
+  count: number
+}
+
+export type AnalyticsDailyResponse = DailyAnalytics[]
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Health
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface HealthResponse {
+  status: string
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Validation Errors
+// ─────────────────────────────────────────────────────────────────────────────
 
 export interface ValidationError {
   loc: (string | number)[]
@@ -36,11 +98,21 @@ export interface HTTPValidationError {
   detail: ValidationError[]
 }
 
-// ─── Query param types ───────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────
+// Query Parameters
+// ─────────────────────────────────────────────────────────────────────────────
 
 export interface GetArticlesParams {
   topic?: string
   source?: string
+
+  from_date?: string
+  to_date?: string
+  days?: number
+
+  sort?: "published_at" | "title" | "source"
+  order?: "asc" | "desc"
+
   skip?: number
   limit?: number
 }
@@ -53,43 +125,4 @@ export interface SearchArticlesParams {
 
 export interface LatestArticlesParams {
   limit?: number
-}
-
-// ─── Placeholder interfaces for untyped endpoints ───────────────────────────
-// TODO: Update these once the backend defines response schemas.
-
-/** GET /stats — response schema is currently {} in openapi.json */
-export interface StatsResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
-}
-
-/** GET /analytics/overview — response schema is currently {} in openapi.json */
-export interface AnalyticsOverviewResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
-}
-
-/** GET /analytics/sources — response schema is currently {} in openapi.json */
-export interface AnalyticsSourcesResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
-}
-
-/** GET /analytics/topics — response schema is currently {} in openapi.json */
-export interface AnalyticsTopicsResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
-}
-
-/** GET /analytics/daily — response schema is currently {} in openapi.json */
-export interface AnalyticsDailyResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
-}
-
-/** GET /health — response schema is currently {} in openapi.json */
-export interface HealthResponse {
-  // TODO: populate when backend defines this schema
-  [key: string]: unknown
 }

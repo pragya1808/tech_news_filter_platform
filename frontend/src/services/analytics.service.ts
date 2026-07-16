@@ -1,5 +1,4 @@
-// TODO: All analytics endpoints return {} in openapi.json.
-// Update return types once the backend defines response schemas.
+
 import apiClient from '@/lib/axios'
 import type {
   AnalyticsDailyResponse,
