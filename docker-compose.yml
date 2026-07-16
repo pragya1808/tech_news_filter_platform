@@ -1,0 +1,201 @@
+services:
+
+  # -------------------------
+  # Tech News Database
+  # -------------------------
+
+  tech-postgres:
+    image: postgres:16
+    container_name: tech-postgres
+
+    environment:
+      POSTGRES_USER: technews
+      POSTGRES_PASSWORD: technews
+      POSTGRES_DB: tech_news
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - tech-news-db:/var/lib/postgresql/data
+
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U technews -d tech_news" ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # -------------------------
+  # Database Initialization
+  # -------------------------
+
+  db-init:
+    build:
+      context: .
+      dockerfile: docker/fastapi.Dockerfile
+
+    container_name: tech-news-db-init
+
+    depends_on:
+      tech-postgres:
+        condition: service_healthy
+
+    environment:
+      DATABASE_URL: postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
+
+    volumes:
+      - .:/app
+
+    command: python create_tables.py
+
+    restart: "no"
+
+  # -------------------------
+  # FastAPI
+  # -------------------------
+
+  fastapi:
+    build:
+      context: .
+      dockerfile: docker/fastapi.Dockerfile
+
+    container_name: tech-news-api
+
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      DATABASE_URL: postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
+
+    volumes:
+      - .:/app
+
+    restart: unless-stopped
+
+  # -------------------------
+  # Airflow Metadata DB
+  # -------------------------
+
+  airflow-postgres:
+    image: postgres:16
+    container_name: airflow-postgres
+
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+
+    volumes:
+      - airflow-db:/var/lib/postgresql/data
+
+  # -------------------------
+  # Airflow Init
+  # -------------------------
+
+  airflow-init:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+
+    container_name: airflow-init
+
+    env_file:
+      - airflow/.env
+
+    depends_on:
+      airflow-postgres:
+        condition: service_started
+      db-init:
+        condition: service_completed_successfully
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - airflow-logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - .:/opt/project
+
+    command: >
+      bash -c " airflow db migrate && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com "
+
+  # -------------------------
+  # Scheduler
+  # -------------------------
+
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+
+    container_name: airflow-scheduler
+
+    env_file:
+      - airflow/.env
+
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      db-init:
+        condition: service_completed_successfully
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+
+    command: scheduler
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - airflow-logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - .:/opt/project
+
+  # -------------------------
+  # Webserver
+  # -------------------------
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+
+    container_name: airflow-webserver
+
+    env_file:
+      - airflow/.env
+
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      db-init:
+        condition: service_completed_successfully
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+
+    command: webserver
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - airflow-logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - .:/opt/project
+
+volumes:
+  tech-news-db:
+  airflow-db:
+  airflow-logs:

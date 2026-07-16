@@ -1,0 +1,2695 @@
+[
+    {
+        "title":"Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms",
+        "author":"Sean O'Kane",
+        "summary":"The safety board confirmed Tesla's account of the crash, which the company shared days after it happened last month.",
+        "published_at":"2026-07-15T20:22:52.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/tesla-driver-in-fatal-texas-crash-pressed-accelerator-100-ntsb-confirms\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477123+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":3
+        }
+    },
+    {
+        "title":"Windows 0-day drops the same day Microsoft releases record number of patches",
+        "author":"Dan Goodin",
+        "summary":"HiveLegacy is a \"powerful primitive\" that's likely capable of other nefarious actions.",
+        "published_at":"2026-07-15T19:59:48.000Z",
+        "url":"https:\/\/arstechnica.com\/security\/2026\/07\/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602809+00:00",
+        "topics":[
+            "Cybersecurity",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Cybersecurity":10,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Daniel Ek\u2019s body-scanning startup Neko Health raises another $700M",
+        "author":"Julie Bort",
+        "summary":"Neko Health has developed proprietary body-scanning technology, which it couples with bloodwork, to assess a person's health.",
+        "published_at":"2026-07-15T19:46:54.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/daniel-eks-body-scanning-startup-neko-health-raises-another-700m\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477167+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":4
+        }
+    },
+    {
+        "title":"Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+        "author":"Lucas Ropek",
+        "summary":"OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+        "published_at":"2026-07-15T19:41:38.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477182+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Consumer Tech",
+            "Programming"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4,
+            "Programming":2,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"FCC to repeal 39% TV ownership cap in boost for Trump-friendly news orgs",
+        "author":"Jon Brodkin",
+        "summary":"FCC chairman claims power to repeal TV ownership limit set by Congress.",
+        "published_at":"2026-07-15T18:52:22.000Z",
+        "url":"https:\/\/arstechnica.com\/tech-policy\/2026\/07\/fcc-to-repeal-39-tv-ownership-cap-in-boost-for-trump-friendly-news-orgs\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602847+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Microsoft patches bug in video game Age of Empires II",
+        "author":"Lorenzo Franceschi-Bicchierai",
+        "summary":"The vulnerability in the decades-old game could have allowed hackers to take over victims\u2019 computers with a malicious game invite.",
+        "published_at":"2026-07-15T18:47:01.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/microsoft-patches-bug-in-video-game-age-of-empires-ii\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477193+00:00",
+        "topics":[
+            "Cybersecurity",
+            "Consumer Tech",
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Cybersecurity":7,
+            "Gaming":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"In memoriam: 7 of our favorite Sam Neill films",
+        "author":"Jennifer Ouellette",
+        "summary":"The actor, who starred in 1993's <em>Jurassic Park<\/em>, died Monday in Sydney, Australia, at the age of 78.",
+        "published_at":"2026-07-15T18:39:58.000Z",
+        "url":"https:\/\/arstechnica.com\/culture\/2026\/07\/in-memoriam-seven-of-our-favorite-sam-neill-films\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602860+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"AI Isn\u2019t Smarter Than a Baby\u2014Yet",
+        "author":"Will Knight",
+        "summary":"Babies are tremendous learning machines, and key advances for AI may soon be found in the architecture of their little brains.",
+        "published_at":"2026-07-15T18:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/ai-isnt-smarter-than-a-baby-yet\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126500+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Apple bans home services from its upcoming Maps ads",
+        "author":"Sarah Perez",
+        "summary":"Apple has published the policies governing its upcoming Maps advertising business, revealing a strategy that differs from Google\u2019s. The new rules prohibit home services businesses like plumbers, electricians, locksmiths, and roofers from advertising on Apple Maps, along with several other sensitive categories, suggesting Apple is taking a more curated approach to these ads.",
+        "published_at":"2026-07-15T18:21:22.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477203+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":10
+        }
+    },
+    {
+        "title":"SpaceX falls to $135 IPO price ahead of Starship launch",
+        "author":"Sean O'Kane",
+        "summary":"The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
+        "published_at":"2026-07-15T18:06:05.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/spacex-falls-to-135-ipo-price-ahead-of-starship-launch\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477214+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":4
+        }
+    },
+    {
+        "title":"Thinking Machines Lab Drops Its First Model",
+        "author":"Will Knight",
+        "summary":"Inkling, a 975-billion-parameter open source model, was trained to understand video and audio. It could help Thinking Machines establish itself among competitors like Anthropic and OpenAI.",
+        "published_at":"2026-07-15T18:05:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/thinking-machines-lab-releases-its-first-model-inkling\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126534+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Open Source"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":8,
+            "Open Source":5
+        }
+    },
+    {
+        "title":"Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+        "author":"Connie Loizos",
+        "summary":"It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+        "published_at":"2026-07-15T18:04:06.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477224+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Phone maker OnePlus reportedly plans to wind down US and Europe operations",
+        "author":"Ivan Mehta",
+        "summary":"OnePlus could also wind down its operations in India by 2027.",
+        "published_at":"2026-07-15T17:53:32.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477233+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Google\u2019s biggest clean power project is 40 miles north of xAI\u2019s unpermitted gas power plant",
+        "author":"Tim De Chant",
+        "summary":"Google's biggest solar and battery project stands in sharp contrast with xAI's nearby unpermitted power plant.",
+        "published_at":"2026-07-15T17:39:54.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477243+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Hack suggests AI music generator Suno scraped YouTube for training data",
+        "author":"Amanda Silberling",
+        "summary":"The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+        "published_at":"2026-07-15T17:00:34.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477259+00:00",
+        "topics":[
+            "Cybersecurity",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Cybersecurity":2
+        }
+    },
+    {
+        "title":"Whatnot acquires Shaped to power real-time live shopping recommendations",
+        "author":"Lauren Forristal",
+        "summary":"Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot\u2019s personalization and discovery features as it expands into new product categories.",
+        "published_at":"2026-07-15T17:00:00.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477269+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Startups"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":6,
+            "Startups":4
+        }
+    },
+    {
+        "title":"Third-party app stores coming to Google Play next week as Epic settlement withdrawn",
+        "author":"Ryan Whitwam",
+        "summary":"With the settlement withdrawn, Google is now bound by the court's full antitrust remedies.",
+        "published_at":"2026-07-15T16:55:12.000Z",
+        "url":"https:\/\/arstechnica.com\/gadgets\/2026\/07\/third-party-app-stores-coming-to-google-play-next-week-as-epic-settlement-withdrawn\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602874+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Lionel Messi\u2019s Final World Cup\u2014and the Death of Early Retirement",
+        "author":"Malak Saleh",
+        "summary":"Argentina\u2019s Lionel Messi was supposed to be done years ago. Now, sports science is helping soccer\u2019s biggest stars rewrite the rules of aging.",
+        "published_at":"2026-07-15T16:28:43.000Z",
+        "url":"https:\/\/www.wired.com\/story\/lionel-messis-final-world-cup-and-the-death-of-early-retirement\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126545+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Microsoft patches record number of security vulnerabilities, citing its use of AI",
+        "author":"Zack Whittaker",
+        "summary":"Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+        "published_at":"2026-07-15T16:20:18.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477279+00:00",
+        "topics":[
+            "Cybersecurity",
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Cybersecurity":8,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"OpenAI's first branded hardware is... a light-up keyboard?",
+        "author":"Kyle Orland",
+        "summary":"The Codex Micro is designed to monitor multiple agentic threads at a glance.",
+        "published_at":"2026-07-15T16:00:33.000Z",
+        "url":"https:\/\/arstechnica.com\/ai\/2026\/07\/openais-first-branded-hardware-is-a-light-up-keyboard\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602892+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4
+        }
+    },
+    {
+        "title":"Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
+        "author":"Lauren Forristal",
+        "summary":"If completed, the acquisition would unite two of the biggest names in digital payments.",
+        "published_at":"2026-07-15T15:30:26.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477288+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":3
+        }
+    },
+    {
+        "title":"Apple Intelligence approved for launch in China with Alibaba\u2019s Qwen AI",
+        "author":"Sarah Perez",
+        "summary":"The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+        "published_at":"2026-07-15T15:29:33.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477298+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+        "author":"Theresa Loconsolo",
+        "summary":"Can a handful of engineers really do the work of an army of consultants?&#160;That\u2019s&#160;the bet behind Ode with Anthropic \u2014&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs&#160;and others.&#160;&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan sits down with Ode\u2019s leaders&#160;Chris Taylor&#160;and&#160;Eddie Siegel,&#160;who founded Fractional AI, [&#8230;]",
+        "published_at":"2026-07-15T15:00:00.000Z",
+        "url":"https:\/\/techcrunch.com\/video\/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477308+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Startups"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":5,
+            "Startups":4
+        }
+    },
+    {
+        "title":"Spotify expands parent-managed accounts to users on its free tier",
+        "author":"Aisha Malik",
+        "summary":"The feature was previously only available to paid subscribers.",
+        "published_at":"2026-07-15T14:42:10.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477317+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":3
+        }
+    },
+    {
+        "title":"India bets billions on breaking China\u2019s grip on smartphone manufacturing",
+        "author":"Jagmeet Singh",
+        "summary":"New Delhi announced a $6.5 billion smartphone manufacturing program and a $13.3 billion semiconductor push to deepen India's electronics supply chain.",
+        "published_at":"2026-07-15T14:39:52.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/india-bets-billions-on-breaking-chinas-grip-on-smartphone-manufacturing\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477326+00:00",
+        "topics":[
+            "Hardware"
+        ],
+        "topic_scores":{
+            "Hardware":5
+        }
+    },
+    {
+        "title":"US charges Russian \u2018bulletproof\u2019 web hosts over cyberattacks that netted $62M from cybercrime victims",
+        "author":"Zack Whittaker",
+        "summary":"The 2024 indictment, now unsealed, accuses three Russians and two web hosts of aiding hackers and profiting from cybercrime.",
+        "published_at":"2026-07-15T14:21:49.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/us-charges-russian-bulletproof-web-hosts-over-cyberattacks-that-netted-62m-from-cybercrime-victims\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477335+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+        "author":"Rebecca Bellan",
+        "summary":"Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+        "published_at":"2026-07-15T13:10:47.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477345+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":5
+        }
+    },
+    {
+        "title":"Rime picks up $24M Series A to help enterprises field customer calls",
+        "author":"Ivan Mehta",
+        "summary":"Rime is handling over 100 million calls each month across multiple companies.",
+        "published_at":"2026-07-15T13:00:00.000Z",
+        "url":"https:\/\/techcrunch.com\/2026\/07\/15\/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls\/",
+        "source":"TechCrunch",
+        "extracted_at":"2026-07-15T20:58:42.477354+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":5
+        }
+    },
+    {
+        "title":"An Inventor of Apple\u2019s FaceID Wants to Analyze Your Brain\u2019s Health With AI",
+        "author":"Isabella Ward",
+        "summary":"Gidi Littwin\u2019s new AI startup, Hemispheric, makes diagnostic brain scans for conditions like depression, PTSD, and Parkinson\u2019s. He wants the technology to be as cheap and easy as for a blood test.",
+        "published_at":"2026-07-15T12:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/the-apple-faceid-veteran-building-a-frontier-ai-model-for-the-human-brain\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126556+00:00",
+        "topics":[
+            "Startups",
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Startups":4,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"A most improbable astronaut just went to space",
+        "author":"Eric Berger",
+        "summary":"\"I pretty much, at that point in time, gave up on being an astronaut.\"",
+        "published_at":"2026-07-15T11:30:07.000Z",
+        "url":"https:\/\/arstechnica.com\/space\/2026\/07\/a-most-improbable-astronaut-just-went-to-space\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602906+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Best iPad to Buy (and Some to Avoid) in 2026: Air, Pro, Mini",
+        "author":"Luke Larsen",
+        "summary":"Apple just raised its prices. Here\u2019s an updated breakdown of the brand\u2019s tablets to find the best one for your needs.",
+        "published_at":"2026-07-15T11:01:00.000Z",
+        "url":"https:\/\/www.wired.com\/gallery\/the-best-ipad\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126565+00:00",
+        "topics":[
+            "Mobile",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Mobile":4,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"How hard is it to build orbital data centers, actually?",
+        "author":"Eric Berger",
+        "summary":"\"The ISS radiators are expensive and heavy. We're focused on making them cheap and light.\"",
+        "published_at":"2026-07-15T11:00:09.000Z",
+        "url":"https:\/\/arstechnica.com\/space\/2026\/07\/how-hard-is-it-to-build-orbital-data-centers-actually\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602916+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"MSI Claw 8 EX AI+ Review: Great Power, Shocking Price",
+        "author":"Matt Kamen",
+        "summary":"But with great power comes a great price.",
+        "published_at":"2026-07-15T11:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/review\/msi-claw-8-ex-ai\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126575+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"4 Best Personal Safety Alarms: Garmin, Sabre, & More (2026)",
+        "author":"Boutayna Chokrane",
+        "summary":"Make some noise for safety with our favorite alarms, from keychain sirens to wearable bracelets.",
+        "published_at":"2026-07-15T10:33:00.000Z",
+        "url":"https:\/\/www.wired.com\/gallery\/the-best-personal-safety-alarms-and-gadgets-for-every-situation\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126587+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Best Google Home Speaker (2026)",
+        "author":"Nena Farrell",
+        "summary":"There\u2019s now only one worth buying\u2014but you can still access new features on older models you might already own.",
+        "published_at":"2026-07-15T10:32:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/best-google-home-speaker\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126602+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
+        "author":"Kate Wong, WIRED.com",
+        "summary":"Private buyers are increasingly outbidding museums for fossils.",
+        "published_at":"2026-07-15T10:30:39.000Z",
+        "url":"https:\/\/arstechnica.com\/science\/2026\/07\/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602927+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"My Ebike Delivery Went Missing. When I Tried to Recover It, I Ended Up in Chatbot Hell",
+        "author":"Dillon Thompson",
+        "summary":"Companies\u2019 increasing reliance on AI chatbots isn\u2019t making the customer service experience smarter. It\u2019s just making it more infuriating.",
+        "published_at":"2026-07-15T10:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/ebike-delivery-missing-when-i-tried-to-recover-it-i-ended-up-in-chatbot-hell\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126617+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"The Explosive Diarrhea Outbreak Is About to Get Much Bigger",
+        "author":"Emily Mullin, Kate Taylor",
+        "summary":"Official case counts likely capture only a fraction of US cyclosporiasis infections, and the outbreak is likely to get worse before it gets better.",
+        "published_at":"2026-07-15T09:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/explosive-diarrhea-outbreak-about-to-get-bigger\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126632+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"OpenAI Staffers Are Funding a Rival Super PAC to Take on Their Boss",
+        "author":"Maxwell Zeff",
+        "summary":"OpenAI employees have donated more than $215,000 to a political effort opposing Leading the Future, a group backed by the company\u2019s president, Greg Brockman.",
+        "published_at":"2026-07-15T09:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/openai-employees-donations-guardrails-alliance-leading-the-future\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126646+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Startups"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4,
+            "Startups":3
+        }
+    },
+    {
+        "title":"How To Watch the 2026 FIFA World Cup Semifinals: England vs Argentina",
+        "author":"Boone Ashworth",
+        "summary":"The end of the FIFA Men\u2019s World Cup is nigh. Here\u2019s how to watch the final games and the first ever World Cup halftime show.",
+        "published_at":"2026-07-15T09:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/how-to-watch-the-fifa-2026-world-cup-07-15-2026\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126662+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Shark Promo Codes for July 2026",
+        "author":"Nena Farrell",
+        "summary":"Shark makes some seriously powerful vacuums, from handheld vacs to steam mops. Don\u2019t miss $100 off, 10% off, and more limited-time coupons from WIRED.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/shark-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126790+00:00",
+        "topics":[
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Gaming":5
+        }
+    },
+    {
+        "title":"1Password Coupon: Score a Free Trial in July 2026",
+        "author":"Scott Gilbertson",
+        "summary":"Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/1password-coupon\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126678+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"HelloFresh Promo Codes: 55% Off for July 2026",
+        "author":"Matthew Korfhage",
+        "summary":"Get up to 55% off and free meal boxes using a HelloFresh coupon code in July 2026. Discover our best codes and discounts to let you save time and money.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/hellofresh-coupon\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126689+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Naturepedic Promo Codes: Get 20% Off Plus Free Pillows",
+        "author":"Nena Farrell",
+        "summary":"Shop the Naturepedic sale this 2026.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/naturepedic-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126716+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Hydrow Discount Code: Save Up to $150 | July 2026",
+        "author":"Chris Haslam",
+        "summary":"Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/hydrow-discount-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126707+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Ring Promo Code: 50% Off",
+        "author":"Nena Farrell",
+        "summary":"Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/ring-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126781+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Western Digital Promo Code: 15% Off",
+        "author":"Molly Higgins",
+        "summary":"Get 15% off your first order at Western Digital when you register your email.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/western-digital-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126771+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"T-Mobile Promo Codes: 25% Off | July 2026",
+        "author":"Molly Higgins",
+        "summary":"Discover how to save on T-Mobile Business Internet and phone plans, from sign-up perks and switching rewards to bundled offers and free lines.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/t-mobile-business-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126762+00:00",
+        "topics":[
+            "Mobile"
+        ],
+        "topic_scores":{
+            "Mobile":2
+        }
+    },
+    {
+        "title":"Logitech Promo Codes and Deals: Up to $100 Off",
+        "author":"Molly Higgins",
+        "summary":"Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/logitech-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126753+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Womanizer Coupons: Save 15% in July",
+        "author":"Amanda Chatel",
+        "summary":"Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/womanizer-coupon\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126744+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Chegg Coupon Codes July 2026: Save on Study, Textbooks, & More",
+        "author":"Molly Higgins",
+        "summary":"Unlock Chegg promo codes, student discounts, and free trials for Chegg Study and Chegg Writing.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/chegg-coupon-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126735+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Wayfair Coupons: Up to 80% Off July 2026",
+        "author":"Molly Higgins",
+        "summary":"Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/wayfair-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126726+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Noom Promo Codes: 50% Off Best Deals & Free Trials for July 2026",
+        "author":"Louryn Strampe",
+        "summary":"Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
+        "published_at":"2026-07-15T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/noom-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126698+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Microsoft\u2019s Secure Boot has been broken for a decade and no one noticed until now",
+        "author":"Dan Goodin",
+        "summary":"Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+        "published_at":"2026-07-14T22:20:48.000Z",
+        "url":"https:\/\/arstechnica.com\/security\/2026\/07\/microsoft-secure-boot-has-been-broken-for-most-of-its-existence\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602938+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+        "author":"Beth Mole",
+        "summary":"Citizens must now spend 21 days in a third country before they are allowed to come home.",
+        "published_at":"2026-07-14T22:09:31.000Z",
+        "url":"https:\/\/arstechnica.com\/health\/2026\/07\/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602949+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds",
+        "author":"Miles Klee",
+        "summary":"The restrictions, which can be turned off, will include a crackdown on \u201caddictive\u201d app features and will be in addition to a total ban on children under 16 accessing platforms like TikTok and YouTube.",
+        "published_at":"2026-07-14T22:08:30.000Z",
+        "url":"https:\/\/www.wired.com\/story\/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126799+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+        "author":"Jon Brodkin",
+        "summary":"Meta denies using AI to terminate workers with disabilities and medical problems.",
+        "published_at":"2026-07-14T20:05:53.000Z",
+        "url":"https:\/\/arstechnica.com\/tech-policy\/2026\/07\/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602960+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+        "author":"Beth Mole",
+        "summary":"Federal officials have not confirmed a source yet\u2014and there may be multiple sources.",
+        "published_at":"2026-07-14T19:00:02.000Z",
+        "url":"https:\/\/arstechnica.com\/health\/2026\/07\/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602971+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"US military sent explosive drone boats into combat for the first time",
+        "author":"Jeremy Hsu",
+        "summary":"US military\u2019s drone boats struck an Iranian naval port as war heats up again.",
+        "published_at":"2026-07-14T18:00:01.000Z",
+        "url":"https:\/\/arstechnica.com\/ai\/2026\/07\/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602981+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"These painted e-tattoos could be the future of wearable biosensors",
+        "author":"Jennifer Ouellette",
+        "summary":"Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
+        "published_at":"2026-07-14T17:31:58.000Z",
+        "url":"https:\/\/arstechnica.com\/science\/2026\/07\/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.602993+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Google revamps image search for its 25th anniversary with more images and more AI",
+        "author":"Ryan Whitwam",
+        "summary":"The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
+        "published_at":"2026-07-14T16:28:14.000Z",
+        "url":"https:\/\/arstechnica.com\/google\/2026\/07\/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603003+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"YouTube and X Have Become \u2018Gateways\u2019 to Nudify Apps",
+        "author":"Ej Dickson",
+        "summary":"A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.",
+        "published_at":"2026-07-14T16:05:18.000Z",
+        "url":"https:\/\/www.wired.com\/story\/youtube-and-x-have-become-gateways-to-nudify-apps\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126808+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"New York bans data center construction for a year, rattling AI industry",
+        "author":"Ashley Belanger",
+        "summary":"New York\u2019s data center moratorium may become the blueprint for anti-AI movement.",
+        "published_at":"2026-07-14T15:06:28.000Z",
+        "url":"https:\/\/arstechnica.com\/tech-policy\/2026\/07\/new-york-is-the-first-state-to-impose-a-data-center-moratorium\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603014+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"New York Governor Signs First Statewide Data Center Moratorium",
+        "author":"Molly Taft",
+        "summary":"\u201cWe have no choice but to address the challenges created by these massive facilities,\u201d New York governor Kathy Hochul said. The executive order will pause construction for one year.",
+        "published_at":"2026-07-14T14:54:41.000Z",
+        "url":"https:\/\/www.wired.com\/story\/new-york-governor-signs-first-statewide-data-center-moratorium\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126818+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Boomers, not Gen Z, are the generation cutting back most on alcohol",
+        "author":"Madeleine Speed, Financial Times",
+        "summary":"New research overturns assumption that abstinent younger drinkers are behind weak demand.",
+        "published_at":"2026-07-14T13:19:16.000Z",
+        "url":"https:\/\/arstechnica.com\/health\/2026\/07\/boomers-not-gen-z-are-the-generation-cutting-back-most-on-alcohol\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603024+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?",
+        "author":"Justin Pot",
+        "summary":"If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.",
+        "published_at":"2026-07-14T12:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126827+00:00",
+        "topics":[
+            "Open Source"
+        ],
+        "topic_scores":{
+            "Open Source":5
+        }
+    },
+    {
+        "title":"9 Tips to Get More Out of Google Chat",
+        "author":"David Nield",
+        "summary":"There\u2019s more to Google\u2019s messaging app than you might realize.",
+        "published_at":"2026-07-14T11:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/9-tips-to-get-more-out-of-google-chat\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126845+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Best RGB TVs (2026): My Picks After Testing the Hottest TVs",
+        "author":"John Brandon",
+        "summary":"RGB TVs are the latest hotness in the world of televisions, and I\u2019ve tested many of the latest models to see which you should buy.",
+        "published_at":"2026-07-14T11:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/best-rgb-tvs\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126836+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Oura Ring 5 Review: Still the Smart Ring to Beat",
+        "author":"Boutayna Chokrane",
+        "summary":"It\u2019s not the upgrade Ring 4 owners have been waiting for, but it\u2019s easily the best smart ring Oura has ever made.",
+        "published_at":"2026-07-14T11:07:00.000Z",
+        "url":"https:\/\/www.wired.com\/review\/oura-ring-5\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126854+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"This German Man Is on a Quest to Cut the Perfect Slice of Bread",
+        "author":"Miles Klee",
+        "summary":"Armed with high-end knives and digital calipers, Germanbreadcutter has entranced thousands of fans, one loaf at a time.",
+        "published_at":"2026-07-14T11:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/this-german-man-is-on-a-mad-quest-to-cut-the-perfect-slice-of-bread\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126862+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"This Luddite Puppet Hopes You\u2019re Not Reading This on Your Smartphone",
+        "author":"Manisha Krishnan",
+        "summary":"On this week\u2019s episode of The Big Interview podcast, WIRED\u2019s senior culture editor Manisha Krishnan talks to Gowanus about eschewing Big Tech, going outside, and rejection in the age of dating apps.",
+        "published_at":"2026-07-14T10:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/the-big-interview-podcast-summer-of-ludd-gowanus\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126871+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Chatbot That Foretold Why People Share Secrets With ChatGPT",
+        "author":"Sarah Ciston, David M. Berry, Anthony C. Hay, Mark C. Marino, Peter Millican, Jeff Shrager, Arthur I. Schwarz, Peggy Weil",
+        "summary":"In the 1960s an MIT professor named Joseph Weizenbaum created a chatbot called ELIZA. The conversations people had with it set precedents for the chatbots to come.",
+        "published_at":"2026-07-14T10:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/inventing-eliza-book-excerpt-chatbot\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126880+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4
+        }
+    },
+    {
+        "title":"Sotheby\u2019s Big T. Rex Auction Raises Concerns Hype and Wealth Are Upending Science",
+        "author":"Kate Wong",
+        "summary":"Private buyers are increasingly outbidding museums for fossils. That\u2019s making it difficult\u2014or even impossible\u2014for researchers to improve our understanding of the past.",
+        "published_at":"2026-07-14T09:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/sothebys-t-rex-auction-shows-wealth-upending-science\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126889+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"DOGE Used AI for Housing Policy. The Government Won\u2019t Say How",
+        "author":"Vittoria Elliott",
+        "summary":"In response to a public records request, HUD has withheld documents about DOGE\u2019s use of AI\u2014in part by citing a privilege that doesn\u2019t exist.",
+        "published_at":"2026-07-14T09:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/doge-deployed-ai-housing-policy\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126898+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"The US Approves Launch of Mirror Satellite That Can Reflect Sunlight and Illuminate the Earth at Night",
+        "author":"Javier Carbajal",
+        "summary":"The FCC authorized Reflect Orbital to launch the mirror satellite E\u00e4rendil-1. \u201cFor optical astronomy, this poses an existential threat,\u201d the European Southern Observatory said.",
+        "published_at":"2026-07-14T08:30:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/reflect-orbital-earendil-mirror-satellite-fcc\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126907+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"eBay Coupons: 20% Off in July 2026",
+        "author":"Molly Higgins",
+        "summary":"Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/ebay-coupon-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.127013+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Squarespace Promo Codes: 20% Off in July 2026",
+        "author":"Molly Higgins",
+        "summary":"Get 20% off your next website, 10% off with exclusive Squarespace discount code, 50% off plans, and more top coupons from WIRED.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/squarespace-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.127005+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Hostinger Promo Code: 79% Off for July 2026",
+        "author":"Molly Higgins",
+        "summary":"Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/hostinger-coupon-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126996+00:00",
+        "topics":[
+            "Cloud Computing"
+        ],
+        "topic_scores":{
+            "Cloud Computing":3
+        }
+    },
+    {
+        "title":"Factor Promo Code: 50% Off Off Meal Prep",
+        "author":"Louryn Strampe",
+        "summary":"Make meal prep easier for any dietary need while enjoying great savings with our hand-picked Factor discount codes this July.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/factor-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126986+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"30% Off Samsung Promo Code | July 2026",
+        "author":"Molly Higgins",
+        "summary":"Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/samsung-promo-codes\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126977+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Dyson Promo Codes: 25% Off in July 2026",
+        "author":"Nena Farrell",
+        "summary":"Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/dyson-cordless-vacuum-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126969+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Nike Promo Codes and Discounts: 30% for July 2026",
+        "author":"Molly Higgins",
+        "summary":"Check out our deals for Nike this July 2026, including 15% off select purchases.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/nike-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126960+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Peacock Promo Codes: 40% Off July 2026",
+        "author":"Molly Higgins",
+        "summary":"Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/peacock-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126951+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"OnePlus Promo Codes: 30% Off July 2026",
+        "author":"Molly Higgins",
+        "summary":"Save 30% with a OnePlus coupon in July 2026, plus save up to 10% on earbuds, phones, and more.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/oneplus-promo-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126942+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"B&H Photo Promo Codes and Deals This July 2026",
+        "author":"Scott Gilbertson",
+        "summary":"Enjoy top deals on cameras, computers, and tech essentials at B&amp;H Photo.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/bh-photo-coupon\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126933+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Bose Promo Code: 40% Off for July 2026",
+        "author":"Molly Higgins",
+        "summary":"Get at least 40% off headphones, speakers, soundbars, and other audio products from Bose.",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/bose-coupon-code\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126925+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Hotels.com Coupon Codes for July 2026",
+        "author":"Molly Higgins",
+        "summary":"Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!",
+        "published_at":"2026-07-14T05:00:00.000Z",
+        "url":"https:\/\/www.wired.com\/story\/hotels-com-coupon\/",
+        "source":"Wired",
+        "extracted_at":"2026-07-15T20:58:43.126916+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"SpaceX is gearing up for Starship's 13th test flight later this week",
+        "author":"Stephen Clark",
+        "summary":"This flight will put Starship under higher pressure and test out new Starlink satellites in orbit.",
+        "published_at":"2026-07-14T01:17:14.000Z",
+        "url":"https:\/\/arstechnica.com\/space\/2026\/07\/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603034+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":4
+        }
+    },
+    {
+        "title":"US continues to shun Ebola-infected citizens; second American sent to Germany",
+        "author":"Beth Mole",
+        "summary":"The man is said to be doing well in a Frankfurt hospital.",
+        "published_at":"2026-07-13T22:07:34.000Z",
+        "url":"https:\/\/arstechnica.com\/health\/2026\/07\/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603045+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The US government warns that Russia state hackers are coming after your router",
+        "author":"Dan Goodin",
+        "summary":"With residential proxies all the rage, CISA urges router users to be vigilant.",
+        "published_at":"2026-07-13T21:03:07.000Z",
+        "url":"https:\/\/arstechnica.com\/security\/2026\/07\/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router\/",
+        "source":"Ars Technica",
+        "extracted_at":"2026-07-15T20:58:43.603055+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Enshittification",
+        "author":"Gaby Del Valle",
+        "summary":"Bryan, a food broker from Michigan, wasn't sure if he'd be able to make it to urgent care in time. He started feeling off on Thursday, and by Saturday, he was having to use the bathroom every 15 to 30 minutes. \"It's no joke about the explosive diarrhea,\" Bryan, who asked that his last name [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/policy\/966111\/cyclospora-explosive-diarrhea-parasite-fda-cdc-taco-bell",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795731+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Something&#8217;s glowing on the Pixel 11&#8217;s camera bar",
+        "author":"Jay Peters",
+        "summary":"A new teaser for Google's upcoming Pixel 11 lineup reveals that the phones will feature some kind of glowing orb on the camera bar, as reported by 9to5Google. Google's store page for the Pixel 11 has a short video that shows the glowing, color-shifting orb to the one side of the camera bar. The store [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/tech\/966120\/google-pixel-11-camera-bar-teaser",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795776+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Suno snatched millions of songs from YouTube, Genius, and Deezer",
+        "author":"Jess Weatherbed",
+        "summary":"Suno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Genius, 404 Media reports. Given that Suno has avoided revealing what's in its training datasets and how they were acquired, this a rare [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/ai-artificial-intelligence\/966072\/suno-ai-music-training-scraping-youtube-hack",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795791+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Lucid\u2019s bankruptcy rumor is a bad sign for the EV future",
+        "author":"Andrew J. Hawkins",
+        "summary":"Lucid Motors found itself in a tough bind this week, fending off bankruptcy rumors and watching its stock price plunge as a result. The company quickly denied the report, calling it \"completely false\" and pointing to its available free cash flow as evidence that it has enough runway to operate into next year. But despite [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/transportation\/965924\/lucids-bankruptcy-rumor-is-a-bad-sign-for-the-ev-future",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795804+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Netflix tries to recapture Stranger Things magic with nostalgic re-release",
+        "author":"Andrew Webster",
+        "summary":"Netflix just can't let Stranger Things go. Since the final episode aired on New Year's Eve there's been a behind-the-scenes documentary, an animated series that expands the story, and now, on the 10th anniversary of the show's original release, Netflix has released a new version of the show's first season. The episodes have all been [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/entertainment\/965980\/stranger-things-vhs-edition-netflix",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795817+00:00",
+        "topics":[
+            "Programming",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Programming":3,
+            "Consumer Tech":3
+        }
+    },
+    {
+        "title":"Samsung shows off \u2018brand new shape\u2019 for Z Fold 8 in Spider-Man teaser",
+        "author":"Stevie Bonifield",
+        "summary":"Samsung gave a sneak peek of the \"brand new shape\" for its upcoming Galaxy Z Fold 8 in a new teaser for Spider-Man: Brand New Day. The video includes a few shots of Spidey taking a foldable phone off a 3D printer and opening it book-style, but each shot is heavily obscured by lens flares. [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/tech\/965997\/samsung-spider-man-galaxy-z-fold-8-teaser",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795829+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"OpenAI finally launches hardware\u2026 for Codex",
+        "author":"Robert Hart",
+        "summary":"OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/ai-artificial-intelligence\/965901\/openai-hardware-codex-micro-launch",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795842+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Consumer Tech",
+            "Programming"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":5,
+            "Programming":2,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Daylight saving time is a step closer to becoming permanent in the US",
+        "author":"Emma Roth",
+        "summary":"The US is getting closer to observing daylight saving time year-round. On Tuesday, the House advanced the Sunshine Protection Act on a 308 to 117 vote, which would turn clocks one hour ahead permanently, as reported by CBS News. President Donald Trump wrote on Truth Social in May that the bill would save the \"hundreds [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/policy\/965952\/daylight-saving-time-permanent-us-house",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795856+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"JBL&#8217;s Flip 7 speaker is small, versatile, and 40 percent off",
+        "author":"Sheena Vasani",
+        "summary":"Sure, Bluetooth speakers are awesome to have for picturesque beach trips, camping weekends, and other outdoor adventures. But they\u2019re just as good to have for some sprinkler time in the yard with the kiddo, or for blasting some tunes or a podcast while you make food. No matter the use cases you have in mind, [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/gadgets\/965640\/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795868+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"8BitDo\u2019s FlipPad is the most pocketable way to turn your phone into a Game Boy",
+        "author":"Andrew Liszewski",
+        "summary":"Both 8BitDo and GameSir announced tiny gamepads designed to turn smartphones into Game Boy-inspired handhelds at CES 2026. GameSir released its Pocket Taco months ago, but the longer wait for 8BitDo's FlipPad has been well worth it. While the Pocket Taco may be a better fit for some players and devices, the FlipPad is a [&#8230;]",
+        "published_at":null,
+        "url":"https:\/\/www.theverge.com\/tech\/964658\/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability",
+        "source":"The Verge",
+        "extracted_at":"2026-07-15T20:58:42.795880+00:00",
+        "topics":[
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Gaming":1
+        }
+    },
+    {
+        "title":"A sweet discovery: Astronomers say sugar is lurking in the space between stars",
+        "author":"\/u\/DukeOfGeek",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhqd0\/a_sweet_discovery_astronomers_say_sugar_is\/\"> <img alt=\"A sweet discovery: Astronomers say sugar is lurking in the space between stars\" src=\"https:\/\/external-preview.redd.it\/B0SqgF88WpIqc4nlUpbKAJgB7on6LopZEkKCEENvIKQ.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a93a821c3775b6cde7688738c9ce1a5a02059440\" title=\"A sweet discovery: Astronomers say sugar is lurking in the space between stars\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/DukeOfGeek\"> \/u\/DukeOfGeek <\/a> <br \/> <span><a href=\"https:\/\/www.pbs.org\/newshour\/science\/a-sweet-discovery-astronomers-say-sugar-is-lurking-in-the-space-between-stars\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhqd0\/a_sweet_discovery_astronomers_say_sugar_is\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhqd0\/a_sweet_discovery_astronomers_say_sugar_is\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025159+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Xbox Player Loses Thousands in Digital Games After Microsoft Deletes 25-Year-Old Account",
+        "author":"\/u\/fudge_u",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhf0e\/xbox_player_loses_thousands_in_digital_games\/\"> <img alt=\"Xbox Player Loses Thousands in Digital Games After Microsoft Deletes 25-Year-Old Account\" src=\"https:\/\/external-preview.redd.it\/OQwOsiCPpe-WIRbWiyLu11n6KzzgcgUxUWlG47BFK0s.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=db1d2a8e0bdcfa4fd687a6267c4dfbe7c71fc2cf\" title=\"Xbox Player Loses Thousands in Digital Games After Microsoft Deletes 25-Year-Old Account\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/fudge_u\"> \/u\/fudge_u <\/a> <br \/> <span><a href=\"https:\/\/www.vice.com\/en\/article\/microsoft-deletes-xbox-players-25-year-old-account-erasing-digital-game-library\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhf0e\/xbox_player_loses_thousands_in_digital_games\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhf0e\/xbox_player_loses_thousands_in_digital_games\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025209+00:00",
+        "topics":[
+            "Gaming",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Gaming":6,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Epic Games Store boss quits after 8 years to take up new role at Saber Interactive | Steve Allison launched Epic's storefront in 2018 and held the reins until earlier this month.",
+        "author":"\/u\/ControlCAD",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhbyl\/epic_games_store_boss_quits_after_8_years_to_take\/\"> <img alt=\"Epic Games Store boss quits after 8 years to take up new role at Saber Interactive | Steve Allison launched Epic's storefront in 2018 and held the reins until earlier this month.\" src=\"https:\/\/external-preview.redd.it\/8q3TwKaDriqeGBIsXywEwaaZ1vdTa30qlL7dlC1XhxQ.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=eb512169b17b45164d49123e74ced43c5f0a4551\" title=\"Epic Games Store boss quits after 8 years to take up new role at Saber Interactive | Steve Allison launched Epic's storefront in 2018 and held the reins until earlier this month.\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/ControlCAD\"> \/u\/ControlCAD <\/a> <br \/> <span><a href=\"https:\/\/www.pcgamer.com\/gaming-industry\/epic-games-store-boss-quits-after-8-years-to-take-up-new-role-at-saber-interactive\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhbyl\/epic_games_store_boss_quits_after_8_years_to_take\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxhbyl\/epic_games_store_boss_quits_after_8_years_to_take\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025226+00:00",
+        "topics":[
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Gaming":4
+        }
+    },
+    {
+        "title":"SpaceX Investors Are Lamenting All the Money They\u2019ve Lost",
+        "author":"\/u\/Plastic_Ninja_9014",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgyim\/spacex_investors_are_lamenting_all_the_money\/\"> <img alt=\"SpaceX Investors Are Lamenting All the Money They\u2019ve Lost\" src=\"https:\/\/external-preview.redd.it\/gIxQ2y67SxmAom4mW8cu1odlaG54x7iKB5Dc-mblUqQ.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ab9b4b4e6719de11a62f588790af7f79476365e4\" title=\"SpaceX Investors Are Lamenting All the Money They\u2019ve Lost\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Plastic_Ninja_9014\"> \/u\/Plastic_Ninja_9014 <\/a> <br \/> <span><a href=\"https:\/\/finance.yahoo.com\/markets\/stocks\/articles\/spacex-investors-lamenting-money-ve-155334039.html\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgyim\/spacex_investors_are_lamenting_all_the_money\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgyim\/spacex_investors_are_lamenting_all_the_money\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025240+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":4
+        }
+    },
+    {
+        "title":"Apple Gets Approval for iPhone AI in China With Alibaba, Baidu",
+        "author":"\/u\/Status_Commission264",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgmoc\/apple_gets_approval_for_iphone_ai_in_china_with\/\"> <img alt=\"Apple Gets Approval for iPhone AI in China With Alibaba, Baidu\" src=\"https:\/\/external-preview.redd.it\/uLoLcnsco4wEZjNDh30vjFgQWT24E6V7Ivbi3atW0AY.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=71d58c944e598aebed656c9ac4190ddd93228b8e\" title=\"Apple Gets Approval for iPhone AI in China With Alibaba, Baidu\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Status_Commission264\"> \/u\/Status_Commission264 <\/a> <br \/> <span><a href=\"https:\/\/www.bloomberg.com\/news\/articles\/2026-07-15\/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china?srnd=homepage-americas\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgmoc\/apple_gets_approval_for_iphone_ai_in_china_with\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxgmoc\/apple_gets_approval_for_iphone_ai_in_china_with\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025254+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Mobile",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Mobile":5,
+            "Consumer Tech":9
+        }
+    },
+    {
+        "title":"Palantir\u2019s CTO Sees Chinese AI Models Posing Economic Risk to US",
+        "author":"\/u\/fmcortez",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfz88\/palantirs_cto_sees_chinese_ai_models_posing\/\"> <img alt=\"Palantir\u2019s CTO Sees Chinese AI Models Posing Economic Risk to US\" src=\"https:\/\/external-preview.redd.it\/M3utst2Oji1hCt3m8AnFj_FOc4JYhqto5p-e1VjQqZA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=641a8817634855993c154b179669f09255883d86\" title=\"Palantir\u2019s CTO Sees Chinese AI Models Posing Economic Risk to US\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/fmcortez\"> \/u\/fmcortez <\/a> <br \/> <span><a href=\"https:\/\/finance.yahoo.com\/technology\/ai\/articles\/palantir-cto-sees-chinese-ai-172903924.html\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfz88\/palantirs_cto_sees_chinese_ai_models_posing\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfz88\/palantirs_cto_sees_chinese_ai_models_posing\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025266+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Microsoft deleted a hacked user's 25-year-old Xbox account, along with his OneDrive baby photos",
+        "author":"\/u\/AdSpecialist6598",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfjko\/microsoft_deleted_a_hacked_users_25yearold_xbox\/\"> <img alt=\"Microsoft deleted a hacked user's 25-year-old Xbox account, along with his OneDrive baby photos\" src=\"https:\/\/external-preview.redd.it\/Fcc78YILwEjlDJz4W7ZO0DFbovdV61gJMcGHAMOaCis.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9aa792754a978b927fe53ddbaa7e99f1d879dad2\" title=\"Microsoft deleted a hacked user's 25-year-old Xbox account, along with his OneDrive baby photos\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/AdSpecialist6598\"> \/u\/AdSpecialist6598 <\/a> <br \/> <span><a href=\"https:\/\/www.techspot.com\/news\/113121-microsoft-deleted-hacked-user-25-year-old-xbox.html\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfjko\/microsoft_deleted_a_hacked_users_25yearold_xbox\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxfjko\/microsoft_deleted_a_hacked_users_25yearold_xbox\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025278+00:00",
+        "topics":[
+            "Gaming",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Gaming":5,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"A DeepMind researcher resigned over its AI military deal: 'I couldn't stay at Google in good conscience'",
+        "author":"\/u\/Just-Grocery-2229",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf821\/a_deepmind_researcher_resigned_over_its_ai\/\"> <img alt=\"A DeepMind researcher resigned over its AI military deal: 'I couldn't stay at Google in good conscience'\" src=\"https:\/\/external-preview.redd.it\/LItLL0FRqBl7zJI98tZ7mqvbf9PXifja-FytcByduBs.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e718ecef3ed9a2caa4221fc8b16a7d54b941ddb1\" title=\"A DeepMind researcher resigned over its AI military deal: 'I couldn't stay at Google in good conscience'\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Just-Grocery-2229\"> \/u\/Just-Grocery-2229 <\/a> <br \/> <span><a href=\"https:\/\/www.businessinsider.com\/google-deepmind-ai-researcher-resign-military-contract-pentagon-2026-7\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf821\/a_deepmind_researcher_resigned_over_its_ai\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf821\/a_deepmind_researcher_resigned_over_its_ai\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025290+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Smart Glasses Are Getting People Charged With Crimes",
+        "author":"\/u\/Plastic_Ninja_9014",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf1vf\/smart_glasses_are_getting_people_charged_with\/\"> <img alt=\"Smart Glasses Are Getting People Charged With Crimes\" src=\"https:\/\/external-preview.redd.it\/CTOOw8j9qIX5o8UA3CQIOmApXckb-gy_I77SD1Qne4g.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7dc54f2582111d6c223ef71c9f7c1715875eb8b6\" title=\"Smart Glasses Are Getting People Charged With Crimes\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Plastic_Ninja_9014\"> \/u\/Plastic_Ninja_9014 <\/a> <br \/> <span><a href=\"https:\/\/www.gadgetreview.com\/smart-glasses-are-getting-people-charged-with-crimes\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf1vf\/smart_glasses_are_getting_people_charged_with\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxf1vf\/smart_glasses_are_getting_people_charged_with\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025302+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Dozens of protests against AI data centers set for this weekend",
+        "author":"\/u\/Just-Grocery-2229",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxevxd\/dozens_of_protests_against_ai_data_centers_set\/\"> <img alt=\"Dozens of protests against AI data centers set for this weekend\" src=\"https:\/\/external-preview.redd.it\/DanPkDla_W_tnASvKNs3LVLJuisBGwy9YmjLYFaISLg.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b12298472bc41414df97bdf3c51ac9ec9dd3b23a\" title=\"Dozens of protests against AI data centers set for this weekend\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Just-Grocery-2229\"> \/u\/Just-Grocery-2229 <\/a> <br \/> <span><a href=\"https:\/\/www.kxan.com\/news\/dozens-of-protests-against-ai-data-centers-set-for-this-weekend-what-to-know\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxevxd\/dozens_of_protests_against_ai_data_centers_set\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxevxd\/dozens_of_protests_against_ai_data_centers_set\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025315+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"EU drops replaceable battery rule for Apple Watch and Meta glasses",
+        "author":"\/u\/lurker_bee",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxe3vk\/eu_drops_replaceable_battery_rule_for_apple_watch\/\"> <img alt=\"EU drops replaceable battery rule for Apple Watch and Meta glasses\" src=\"https:\/\/external-preview.redd.it\/1Am0i-cpvxowwksdejvcgiA7ih7iGC_Vfcvupgx02YA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9a495759c41c1f8dcadb8d2feaa1fd2350518b5a\" title=\"EU drops replaceable battery rule for Apple Watch and Meta glasses\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/lurker_bee\"> \/u\/lurker_bee <\/a> <br \/> <span><a href=\"https:\/\/www.macobserver.com\/news\/eu-drops-replaceable-battery-rule-for-apple-watch-and-meta-glasses\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxe3vk\/eu_drops_replaceable_battery_rule_for_apple_watch\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxe3vk\/eu_drops_replaceable_battery_rule_for_apple_watch\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025326+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":8
+        }
+    },
+    {
+        "title":"Attorney General Nominee Todd Blanche Grilled On DOJ\u2019s Greenlight Of Paramount-Warner Bros. Discovery Merger: \u201cI Was Part Of That Decision\u201d",
+        "author":"\/u\/ControlCAD",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxdhoz\/attorney_general_nominee_todd_blanche_grilled_on\/\"> <img alt=\"Attorney General Nominee Todd Blanche Grilled On DOJ\u2019s Greenlight Of Paramount-Warner Bros. Discovery Merger: \u201cI Was Part Of That Decision\u201d\" src=\"https:\/\/external-preview.redd.it\/10ONWbfWaQS2BkW-JFsZzUHurWJil4amPkY1hat9kn0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=60c742a6e4c0020d96e89d525f117ff4b37dadc9\" title=\"Attorney General Nominee Todd Blanche Grilled On DOJ\u2019s Greenlight Of Paramount-Warner Bros. Discovery Merger: \u201cI Was Part Of That Decision\u201d\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/ControlCAD\"> \/u\/ControlCAD <\/a> <br \/> <span><a href=\"https:\/\/deadline.com\/2026\/07\/todd-blanche-paramount-warner-bros-merger-1236983076\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxdhoz\/attorney_general_nominee_todd_blanche_grilled_on\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxdhoz\/attorney_general_nominee_todd_blanche_grilled_on\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025338+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Book publishers sue Google for copyright infringement over Gemini AI training",
+        "author":"\/u\/ArgentineBeauty",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxddrr\/book_publishers_sue_google_for_copyright\/\"> <img alt=\"Book publishers sue Google for copyright infringement over Gemini AI training\" src=\"https:\/\/external-preview.redd.it\/ujZzK-tAUbIJdteEM39a1dJ_U7wmTKrEsRqy6rVhq2s.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f43a67bff7ed298122b8a488c479461fc514f53f\" title=\"Book publishers sue Google for copyright infringement over Gemini AI training\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/ArgentineBeauty\"> \/u\/ArgentineBeauty <\/a> <br \/> <span><a href=\"https:\/\/www.theguardian.com\/books\/2026\/jul\/14\/publishers-sue-google-gemini-ai-training\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxddrr\/book_publishers_sue_google_for_copyright\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxddrr\/book_publishers_sue_google_for_copyright\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025349+00:00",
+        "topics":[
+            "Artificial Intelligence",
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":5,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"FCC set to repeal TV audience cap that limits consolidation \u2013 and the number of TV-viewing households a single broadcaster could reach",
+        "author":"\/u\/marketrent",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxd94d\/fcc_set_to_repeal_tv_audience_cap_that_limits\/\"> <img alt=\"FCC set to repeal TV audience cap that limits consolidation \u2013 and the number of TV-viewing households a single broadcaster could reach\" src=\"https:\/\/external-preview.redd.it\/BJM72DchZGm5w0o3X8Vyon_ANKeHymGRoif2Kf6kfKY.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=929a612733979d5d4b6141cd3700bf49bc4dc797\" title=\"FCC set to repeal TV audience cap that limits consolidation \u2013 and the number of TV-viewing households a single broadcaster could reach\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/marketrent\"> \/u\/marketrent <\/a> <br \/> <span><a href=\"https:\/\/www.bloomberg.com\/news\/articles\/2026-07-15\/fcc-said-to-repeal-broadcast-audience-cap-in-win-for-nexstar\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxd94d\/fcc_set_to_repeal_tv_audience_cap_that_limits\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxd94d\/fcc_set_to_repeal_tv_audience_cap_that_limits\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025363+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"American AI is expensive. Some startups are turning to cheap Chinese models",
+        "author":"\/u\/nosotros_road_sodium",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxctsi\/american_ai_is_expensive_some_startups_are\/\"> <img alt=\"American AI is expensive. Some startups are turning to cheap Chinese models\" src=\"https:\/\/external-preview.redd.it\/gwzf045DPpJM6GTyw6WuB3lvn0p3mMwRrhU--uC6Jd4.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9d5ef9024b41724b621c3aa7f289935b09fb150e\" title=\"American AI is expensive. Some startups are turning to cheap Chinese models\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/nosotros_road_sodium\"> \/u\/nosotros_road_sodium <\/a> <br \/> <span><a href=\"https:\/\/www.npr.org\/2026\/07\/15\/nx-s1-5886476\/startups-cheap-chinese-ai-models\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxctsi\/american_ai_is_expensive_some_startups_are\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxctsi\/american_ai_is_expensive_some_startups_are\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025375+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Meta employees sue over use of AI in workforce reduction",
+        "author":"\/u\/gdelacalle",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxco7x\/meta_employees_sue_over_use_of_ai_in_workforce\/\"> <img alt=\"Meta employees sue over use of AI in workforce reduction\" src=\"https:\/\/external-preview.redd.it\/3r0xF2FRGNI8nLfmoWkUNB9kSWuySev3k4IhZebTd30.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=99a24b899a0d85600053a472e066915a28c191ea\" title=\"Meta employees sue over use of AI in workforce reduction\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/gdelacalle\"> \/u\/gdelacalle <\/a> <br \/> <span><a href=\"https:\/\/www.courthousenews.com\/meta-employees-sue-over-use-of-ai-in-workforce-reduction\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxco7x\/meta_employees_sue_over_use_of_ai_in_workforce\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxco7x\/meta_employees_sue_over_use_of_ai_in_workforce\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025386+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Woman Got a Rental Car From Audi, Was Greeted By a Massive Dystopian Camera Pointed at Her Face",
+        "author":"\/u\/Plastic_Ninja_9014",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc8la\/woman_got_a_rental_car_from_audi_was_greeted_by_a\/\"> <img alt=\"Woman Got a Rental Car From Audi, Was Greeted By a Massive Dystopian Camera Pointed at Her Face\" src=\"https:\/\/external-preview.redd.it\/xLqjPoGOZp4v2Js-HFQoaEkJhUcJdK04DRoU-KLYUoA.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=002079306e564fc339666e0fd99345f154b80429\" title=\"Woman Got a Rental Car From Audi, Was Greeted By a Massive Dystopian Camera Pointed at Her Face\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Plastic_Ninja_9014\"> \/u\/Plastic_Ninja_9014 <\/a> <br \/> <span><a href=\"https:\/\/www.gadgetreview.com\/woman-got-a-rental-car-from-audi-was-greeted-by-a-massive-dystopian-camera-pointed-at-her-face\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc8la\/woman_got_a_rental_car_from_audi_was_greeted_by_a\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc8la\/woman_got_a_rental_car_from_audi_was_greeted_by_a\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025398+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Electric companies urge customers to reduce energy use during heat wave",
+        "author":"\/u\/Wagamaga",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc1fh\/electric_companies_urge_customers_to_reduce\/\"> <img alt=\"Electric companies urge customers to reduce energy use during heat wave\" src=\"https:\/\/external-preview.redd.it\/xX3Kb90pQDz0zsBzDQLkqP9-9wudmWkhvuLifyx66VU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a7aaa0709e9c69e516ec388f759996e811a971a3\" title=\"Electric companies urge customers to reduce energy use during heat wave\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Wagamaga\"> \/u\/Wagamaga <\/a> <br \/> <span><a href=\"https:\/\/www.29news.com\/2026\/07\/15\/electric-companies-urge-customers-reduce-energy-use-during-heat-wave\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc1fh\/electric_companies_urge_customers_to_reduce\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxc1fh\/electric_companies_urge_customers_to_reduce\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025410+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Upstate NY school district will deploy a humanoid robot teacher this fall",
+        "author":"\/u\/monkeydave",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbbaj\/upstate_ny_school_district_will_deploy_a_humanoid\/\"> <img alt=\"Upstate NY school district will deploy a humanoid robot teacher this fall\" src=\"https:\/\/external-preview.redd.it\/EKj6jjmlhG_GKJvzv49tkv9dUFHGRaY4j-sruHMAEZo.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=58ef4cdad9e0ce18dca8ea6b0a2a05daafaf2277\" title=\"Upstate NY school district will deploy a humanoid robot teacher this fall\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/monkeydave\"> \/u\/monkeydave <\/a> <br \/> <span><a href=\"https:\/\/www.syracuse.com\/schools\/2026\/07\/upstate-ny-school-district-will-deploy-a-humanoid-robot-teacher-this-fall.html\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbbaj\/upstate_ny_school_district_will_deploy_a_humanoid\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbbaj\/upstate_ny_school_district_will_deploy_a_humanoid\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025422+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+        "author":"\/u\/Guilty-Ad-5975",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbabv\/indian_ai_coding_startup_emergent_becomes_a\/\"> <img alt=\"Indian AI coding startup Emergent becomes a unicorn with $130M Series C\" src=\"https:\/\/external-preview.redd.it\/mw6S3NP6P0UetQUL-O_4fmAuX2uy_-fvL0ZRoRU1e3k.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e8bc273635924da83d4e1b058e87b58ba30f20fe\" title=\"Indian AI coding startup Emergent becomes a unicorn with $130M Series C\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Guilty-Ad-5975\"> \/u\/Guilty-Ad-5975 <\/a> <br \/> <span><a href=\"https:\/\/techcrunch.com\/2026\/07\/15\/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch\/?utm_source=dlvr.it&amp;utm_medium=twitter\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbabv\/indian_ai_coding_startup_emergent_becomes_a\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxbabv\/indian_ai_coding_startup_emergent_becomes_a\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025434+00:00",
+        "topics":[
+            "Startups",
+            "Programming",
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1,
+            "Programming":2,
+            "Startups":4
+        }
+    },
+    {
+        "title":"SpaceX stock sinks below $135 IPO price for the first time",
+        "author":"\/u\/MarvelsGrantMan136",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxapr3\/spacex_stock_sinks_below_135_ipo_price_for_the\/\"> <img alt=\"SpaceX stock sinks below $135 IPO price for the first time\" src=\"https:\/\/external-preview.redd.it\/7klj9RzM3EGd4pS-L6DxAq_T5i6eLp5enYE8t4kXgDE.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fe8835adb53869d99e158fa1aacc052f0518ffa0\" title=\"SpaceX stock sinks below $135 IPO price for the first time\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/MarvelsGrantMan136\"> \/u\/MarvelsGrantMan136 <\/a> <br \/> <span><a href=\"https:\/\/www.cnbc.com\/2026\/07\/15\/spacex-spcx-stock-ipo-price.html\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxapr3\/spacex_stock_sinks_below_135_ipo_price_for_the\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxapr3\/spacex_stock_sinks_below_135_ipo_price_for_the\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025445+00:00",
+        "topics":[
+            "Startups"
+        ],
+        "topic_scores":{
+            "Startups":4
+        }
+    },
+    {
+        "title":"Dell PCs are shutting down after Windows 11's July update, Microsoft admits and blocks it",
+        "author":"\/u\/kazu_qt",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxaol0\/dell_pcs_are_shutting_down_after_windows_11s_july\/\"> <img alt=\"Dell PCs are shutting down after Windows 11's July update, Microsoft admits and blocks it\" src=\"https:\/\/external-preview.redd.it\/RaweMGgGS6eDomReQpI6EHaN8wDtNWpHey9OS5Qj9C8.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=966f4966aaab11a0193648161849902b30b9556e\" title=\"Dell PCs are shutting down after Windows 11's July update, Microsoft admits and blocks it\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/kazu_qt\"> \/u\/kazu_qt <\/a> <br \/> <span><a href=\"https:\/\/www.windowslatest.com\/2026\/07\/15\/dell-pcs-are-shutting-down-after-windows-11s-july-update-microsoft-admits-and-blocks-it\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxaol0\/dell_pcs_are_shutting_down_after_windows_11s_july\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1uxaol0\/dell_pcs_are_shutting_down_after_windows_11s_july\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025456+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Cybersecurity"
+        ],
+        "topic_scores":{
+            "Cybersecurity":2,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Generative AI Is an Engineering Disaster | A shockingly inefficient trillion-dollar project",
+        "author":"\/u\/Hrmbee",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qoi\/generative_ai_is_an_engineering_disaster_a\/\"> <img alt=\"Generative AI Is an Engineering Disaster | A shockingly inefficient trillion-dollar project\" src=\"https:\/\/external-preview.redd.it\/1U5isQA3yFttWX_2qvN-qw32XzE-tARmny1AZiGk_s0.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=2f665abf8f8ad2fe1958b0a947cd0ac6664b641c\" title=\"Generative AI Is an Engineering Disaster | A shockingly inefficient trillion-dollar project\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/Hrmbee\"> \/u\/Hrmbee <\/a> <br \/> <span><a href=\"https:\/\/www.theatlantic.com\/technology\/2026\/07\/generative-ai-engineering-disaster\/687901\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qoi\/generative_ai_is_an_engineering_disaster_a\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qoi\/generative_ai_is_an_engineering_disaster_a\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025467+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing",
+        "author":"\/u\/philosophycruiser",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qn9\/microsoft_confirms_windows_gdid_device_identifier\/\"> <img alt=\"Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing\" src=\"https:\/\/external-preview.redd.it\/703tJ_5MekzNGiTQzOYH-1qa2swLBpiUlqqaLwNt3kk.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e03ea7086b564b0b8be686ae947673c4c5658b8f\" title=\"Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/philosophycruiser\"> \/u\/philosophycruiser <\/a> <br \/> <span><a href=\"https:\/\/www.ghacks.net\/2026\/07\/12\/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing\/\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qn9\/microsoft_confirms_windows_gdid_device_identifier\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9qn9\/microsoft_confirms_windows_gdid_device_identifier\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025478+00:00",
+        "topics":[
+            "Consumer Tech",
+            "Cybersecurity"
+        ],
+        "topic_scores":{
+            "Cybersecurity":2,
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Why Windows Movie Maker is still better than Clipchamp",
+        "author":"\/u\/kazu_qt",
+        "summary":"<table> <tr><td> <a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9h5q\/why_windows_movie_maker_is_still_better_than\/\"> <img alt=\"Why Windows Movie Maker is still better than Clipchamp\" src=\"https:\/\/external-preview.redd.it\/q1DV4WhDcpZvvn2k70ClnCb3i-SiJNu9e0qXN8oNtPU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0819d7ee83d7269b1a95cfd74cacad7fafaed420\" title=\"Why Windows Movie Maker is still better than Clipchamp\" \/> <\/a> <\/td><td> &#32; submitted by &#32; <a href=\"https:\/\/www.reddit.com\/user\/kazu_qt\"> \/u\/kazu_qt <\/a> <br \/> <span><a href=\"https:\/\/www.windowscentral.com\/software-apps\/windows-movie-maker-still-beats-clipchamp-in-an-important-way\">[link]<\/a><\/span> &#32; <span><a href=\"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9h5q\/why_windows_movie_maker_is_still_better_than\/\">[comments]<\/a><\/span> <\/td><\/tr><\/table>",
+        "published_at":null,
+        "url":"https:\/\/www.reddit.com\/r\/technology\/comments\/1ux9h5q\/why_windows_movie_maker_is_still_better_than\/",
+        "source":"Reddit - r\/technology",
+        "extracted_at":"2026-07-15T20:58:45.025489+00:00",
+        "topics":[
+            "Cybersecurity"
+        ],
+        "topic_scores":{
+            "Cybersecurity":2
+        }
+    },
+    {
+        "title":"Inkling: Our Open-Weights Model",
+        "author":"vimarsh6739",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/thinkingmachines.ai\/news\/introducing-inkling\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:47.585952+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Duskers, the scary command line game, is getting a sequel",
+        "author":"spacemarine1",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/elbowgreasegames.substack.com\/p\/misfits-attic-announces-duskers-20",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:48.302442+00:00",
+        "topics":[
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Gaming":1
+        }
+    },
+    {
+        "title":"Stripe and Advent have made a joint offer to acquire PayPal \u2013 sources",
+        "author":"rvz",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.reuters.com\/business\/finance\/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:49.020251+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Running Gemma 4 26B at 5 tokens\/sec on a 13-year-old Xeon with no GPU",
+        "author":"neomindryan",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.neomindlabs.com\/2026\/06\/08\/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:49.736314+00:00",
+        "topics":[
+            "Hardware"
+        ],
+        "topic_scores":{
+            "Hardware":5
+        }
+    },
+    {
+        "title":"Collection of Digital Clock Designs",
+        "author":"levmiseri",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/clocks.dev",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:50.362877+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Voxatron",
+        "author":"lsferreira42",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.lexaloffle.com\/voxatron.php",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:51.068361+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Mysteries of Telegram Data Centers (2022)",
+        "author":"theanonymousone",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/dev.moe\/en\/3025",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:51.784928+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
+        "author":"nonadhocproblem",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/github.com\/welcome-to-the-sunny-side\/misa77",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:52.501682+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Prioritize mental health, and why communication is so important",
+        "author":"ramon156",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/ramones.dev\/posts\/mental-health\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:53.218608+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+        "author":"benswerd",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/brainless.swerdlow.dev",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:53.936717+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4
+        }
+    },
+    {
+        "title":"MITS: Rockets, Calculators, and Personal Computers",
+        "author":"BirAdam",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.abortretry.fail\/p\/micro-instrumentation-and-telemetry",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:54.556522+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Towards a harness that can do anything",
+        "author":"evakhoury",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/eardatasci.github.io\/c\/ambiance\/index.html",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:55.195252+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Designing APIs for Agents",
+        "author":"benswerd",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.freestyle.sh\/blog\/opinion\/designing-apis-for-agents",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:55.856602+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Artie (YC S23) Is Hiring Software Engineers",
+        "author":"tang8330",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/jobs.ashbyhq.com\/artie",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:56.474369+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Show HN: Capn-hook for coding agents \u2013 don't grep the same mystery twice",
+        "author":"knrz",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/github.com\/cyrusNuevoDia\/capn-hook",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:57.212592+00:00",
+        "topics":[
+            "Programming"
+        ],
+        "topic_scores":{
+            "Programming":2
+        }
+    },
+    {
+        "title":"Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents",
+        "author":"nkov47",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/coasty.ai\/docs",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:57.930720+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
+        "author":"bilsbie",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/academic.oup.com\/sleep\/article\/47\/1\/zsad253\/7280269",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:58.646309+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Open-source memory for coding agents, synced over SSH",
+        "author":"vshulcz",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/github.com\/vshulcz\/deja-vu\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:59.260098+00:00",
+        "topics":[
+            "Programming"
+        ],
+        "topic_scores":{
+            "Programming":2
+        }
+    },
+    {
+        "title":"Today I Rescued 7,234 Old GIFs",
+        "author":"birdculture",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/danq.me\/2026\/07\/10\/rescuing-7234-gifs\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:58:59.956257+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Memory Heist",
+        "author":"eieio",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.ayush.digital\/blog\/the-memory-heist",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:01.116121+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"My midlife crisis Corolla is fast, furious, and modded",
+        "author":"gmays",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.zocalopublicsquare.org\/my-midlife-crisis-corolla-fast-furious-fully-modded\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:01.820650+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Briar is in maintenance mode",
+        "author":"ristello",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/briarproject.org\/news\/2026-maintenance-mode\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:02.539024+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Codex Micro",
+        "author":"davidbarker",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/openai.com\/supply\/co-lab\/work-louder\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:03.254042+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Show HN: SirixDB 1.0 Beta \u2013 Git-Like Versioning, Diffs, Time-Travel Queries",
+        "author":"lichtenberger",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/github.com\/sirixdb\/sirix",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:03.971449+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"OpenAI loses trademark dispute at EU court",
+        "author":"hermanzegerman",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/dpa-international.com\/economics\/urn:newsml:dpa.com:20090101:260715-930-389143\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:04.686287+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4
+        }
+    },
+    {
+        "title":"Unsolved Problems in MLOps",
+        "author":"gnyeki",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/spawn-queue.acm.org\/doi\/pdf\/10.1145\/3762989",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:05.403475+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"When A.I. is a member of the family",
+        "author":"fortran77",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.newyorker.com\/magazine\/2026\/07\/20\/when-ai-is-a-member-of-the-family",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:06.120347+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
+        "author":"dxs",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/smarterarticles.co.uk\/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:06.837354+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":1
+        }
+    },
+    {
+        "title":"Telegram Serverless",
+        "author":"soheilpro",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/core.telegram.org\/bots\/serverless",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:07.554828+00:00",
+        "topics":[
+            "Cloud Computing"
+        ],
+        "topic_scores":{
+            "Cloud Computing":4
+        }
+    },
+    {
+        "title":"A General Goal-Conditioned Minecraft Model",
+        "author":"agajews",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/pantograph.com\/journal\/pan-1",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:08.272295+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"The Conservationist Who Turned 40 Terabytes of Public Data into a Video Game",
+        "author":"bryanmikaelian",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/blog.exe.dev\/meet-the-conservationist-who-turned-40-terabytes-of-government-data-into-a-video-game",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:08.988848+00:00",
+        "topics":[
+            "Gaming"
+        ],
+        "topic_scores":{
+            "Gaming":1
+        }
+    },
+    {
+        "title":"The well-calibrated Bayesian [pdf] (1982)",
+        "author":"Murfalo",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/fitelson.org\/seminar\/dawid.pdf",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:09.632726+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Editing React components that never rendered",
+        "author":"linb",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/blog.crossui.com\/2026\/07\/editing-react-components-that-never-rendered",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:10.317548+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Weathergotchi \u2013 an E-Paper Climate Logger",
+        "author":"luanmuniz",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/github.com\/Michael-Manning\/E-Paper-Climate-Logger",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:11.036831+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"What Every Python Developer Should Know About the CPython ABI",
+        "author":"matt_d",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/labs.quansight.org\/blog\/python-abi-abi3t",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:11.751802+00:00",
+        "topics":[
+            "Programming"
+        ],
+        "topic_scores":{
+            "Programming":7
+        }
+    },
+    {
+        "title":"Jurassic Park computers in excruciating detail",
+        "author":"vinhnx",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/fabiensanglard.net\/jurrasic_park_computers\/index.html",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:12.878692+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"What designing computer science cards taught me about graphic design",
+        "author":"marukodo",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/fhoehl.com\/designing-algodeck",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:13.594079+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"FreeBSD 16 Retires the Last of Its GPL Code from Its Base System",
+        "author":"lr0",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.phoronix.com\/news\/FreeBSD-16-Goes-GPL-Free",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:14.310804+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"DEA to Temporarily Schedule 7-Oh and Related Substances to Protect Public Safety",
+        "author":"gnabgib",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.dea.gov\/press-releases\/2026\/07\/01\/dea-temporarily-schedule-7-oh-and-related-substances-protect-public",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:14.919309+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Germany maybe found a new source of renewable energy",
+        "author":"janandonly",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.schweizerbart.de\/papers\/zdgg\/detail\/prepub\/108503\/Geological_and_geophysical_characterisation_of_the_exploration_boreholes_EB1_and_EB2_Inde_Syncline_Rhenohercynian_Fold_and_Thrust_Belt_and_Weisweiler_Horst_Lower_Rhine_Embayment_Germany",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:15.642197+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"What's the most popular number in Hacker News titles?",
+        "author":"omgmog",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/blog.omgmog.net\/post\/most-popular-numbers-in-hn-post-titles\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:16.358880+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Why I Left Google DeepMind",
+        "author":"apsec112",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/turntrout.com\/why-i-left-google-deepmind",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:17.077115+00:00",
+        "topics":[
+            "Consumer Tech"
+        ],
+        "topic_scores":{
+            "Consumer Tech":4
+        }
+    },
+    {
+        "title":"Using Go for Mobile Apps",
+        "author":"theHocineSaad",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.davidsobsessions.com\/p\/one-year-of-gomobile\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:17.794158+00:00",
+        "topics":[
+            "Programming",
+            "Mobile"
+        ],
+        "topic_scores":{
+            "Programming":3,
+            "Mobile":2
+        }
+    },
+    {
+        "title":"GPT\u2011Red: Unlocking Self-Improvement for Robustness",
+        "author":"alvis",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/openai.com\/index\/unlocking-self-improvement-gpt-red\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:18.416601+00:00",
+        "topics":[
+            "Artificial Intelligence"
+        ],
+        "topic_scores":{
+            "Artificial Intelligence":4
+        }
+    },
+    {
+        "title":"Why do people hate the tech industry? (2023)",
+        "author":"dsego",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.sevarg.net\/2023\/03\/25\/why-people-hate-tech\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:19.022367+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Dark patterns in Windows are steering users to Edge: Mozilla-commissioned report",
+        "author":"Bender",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.theregister.com\/os-platforms\/2026\/07\/15\/dark-patterns-in-windows-are-steering-users-to-edge-mozilla-commissioned-report\/5271792",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:19.738282+00:00",
+        "topics":[
+            "Open Source",
+            "Cybersecurity"
+        ],
+        "topic_scores":{
+            "Cybersecurity":2,
+            "Open Source":3
+        }
+    },
+    {
+        "title":"The Great Automatic Grammatizator (1954) [pdf]",
+        "author":"sam_bristow",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/gwern.net\/doc\/fiction\/science-fiction\/1953-dahl-thegreatautomaticgrammatizator.pdf",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:20.374710+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Show HN: 18KB ls alternative in no_std rust and Libc",
+        "author":"tracyspacy",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/crates.io\/crates\/fli-tool",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:21.035705+00:00",
+        "topics":[
+            "Programming"
+        ],
+        "topic_scores":{
+            "Programming":4
+        }
+    },
+    {
+        "title":"Richard Feynman and the Connection Machine (1989)",
+        "author":"yankcrime",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/longnow.org\/ideas\/richard-feynman-and-the-connection-machine\/",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:21.684214+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    },
+    {
+        "title":"Treating generic drugs as something special can wreck affordability",
+        "author":"toomuchtodo",
+        "summary":"",
+        "published_at":null,
+        "url":"https:\/\/www.46brooklyn.com\/research\/wrecklimid-how-treating-generic-drugs-as-something-special-can-wreck-affordability-jfmve",
+        "source":"Hacker News",
+        "extracted_at":"2026-07-15T20:59:22.399735+00:00",
+        "topics":[
+            "Other"
+        ],
+        "topic_scores":{
+
+        }
+    }
+]
