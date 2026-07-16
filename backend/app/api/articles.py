@@ -1,5 +1,5 @@
 from typing import Annotated
-
+from datetime import date
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
@@ -24,18 +24,36 @@ def get_articles(
     db: DBSession,
     topic: str | None = None,
     source: str | None = None,
+    from_date: date | None = None,
+    to_date: date | None = None,
+    days: int | None = None,
+    sort: str = "published_at",
+    order: str = "desc",
     skip: int = Query(default=0, ge=0),
     limit: int = Query(default=20, ge=1, le=100),
+
 ):
     articles = crud.get_articles(
         db=db,
         topic=topic,
         source=source,
+        from_date=from_date,
+        to_date=to_date,
+        days=days,
+        sort=sort,
+        order=order,
         skip=skip,
         limit=limit,
     )
 
-    total = crud.get_article_count(db)
+    total = crud.get_article_count(
+        db=db,
+        topic=topic,
+        source=source,
+        from_date=from_date,
+        to_date=to_date,
+        days=days,
+    )
 
     return {
         "total": total,
@@ -47,7 +65,7 @@ def get_articles(
 
 @router.get(
     "/articles/search",
-    response_model=list[ArticleResponse],
+    response_model=ArticleListResponse,
     summary="Search articles",
 )
 def search_articles(
@@ -56,12 +74,22 @@ def search_articles(
     skip: int = Query(default=0, ge=0),
     limit: int = Query(default=20, ge=1, le=100),
 ):
-    return crud.search_articles(
+    articles = crud.search_articles(
         db=db,
         query=q,
         skip=skip,
         limit=limit,
     )
+    total = crud.get_search_count(
+        db=db,
+        query=q,
+    )
+    return {
+        "total": total,
+        "skip": skip,
+        "limit": limit,
+        "items": articles,
+    }
 
 
 @router.get(

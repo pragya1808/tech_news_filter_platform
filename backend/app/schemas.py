@@ -52,8 +52,19 @@ class ArticleListResponse(BaseModel):
 
 class StatsResponse(BaseModel):
     total_articles: int
+    total_topics: int
+    total_sources: int
+    articles_today: int
+    last_updated: datetime | None
+
+
+
+class AnalyticsOverviewResponse(BaseModel):
+    total_articles: int
     total_sources: int
     total_topics: int
+    avg_articles_per_day: float
+    first_article: datetime | None
     latest_article: datetime | None
 
 
@@ -68,5 +79,6 @@ class TopicAnalyticsResponse(BaseModel):
 
 
 class DailyAnalyticsResponse(BaseModel):
-    date: datetime | str
+    date: date
     count: int
+

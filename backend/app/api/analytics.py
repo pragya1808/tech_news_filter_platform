@@ -1,47 +1,69 @@
-from fastapi import APIRouter
+from typing import Annotated
+
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
-from backend.app.core.database import SessionLocal
+from backend.app.core.dependencies import get_db
 from backend.app.crud import analytics as crud
+from backend.app.schemas import (
+    AnalyticsOverviewResponse,
+    SourceAnalyticsResponse,
+    TopicAnalyticsResponse,
+    DailyAnalyticsResponse,
+)
 
 router = APIRouter(tags=["Analytics"])
 
-
-@router.get("/analytics/overview")
-def overview():
-    db: Session = SessionLocal()
-
-    try:
-        return crud.get_overview(db)
-    finally:
-        db.close()
+DBSession = Annotated[Session, Depends(get_db)]
 
 
-@router.get("/analytics/sources")
-def sources():
-    db: Session = SessionLocal()
-
-    try:
-        return crud.get_articles_per_source(db)
-    finally:
-        db.close()
-
-
-@router.get("/analytics/topics")
-def topics():
-    db: Session = SessionLocal()
-
-    try:
-        return crud.get_articles_per_topic(db)
-    finally:
-        db.close()
+@router.get(
+    "/analytics/overview",
+    response_model=AnalyticsOverviewResponse,
+    summary="Analytics overview",
+)
+def overview(
+    db: DBSession,
+):
+    return crud.get_overview(db)
 
 
-@router.get("/analytics/daily")
-def daily():
-    db: Session = SessionLocal()
+@router.get(
+    "/analytics/sources",
+    response_model=list[SourceAnalyticsResponse],
+    summary="Articles grouped by source",
+)
+def sources(
+    db: DBSession,
+    limit: int = Query(default=10, ge=1, le=100),
+):
+    return crud.get_articles_per_source(
+        db=db,
+        limit=limit,
+    )
 
-    try:
-        return crud.get_articles_per_day(db)
-    finally:
-        db.close()
+
+@router.get(
+    "/analytics/topics",
+    response_model=list[TopicAnalyticsResponse],
+    summary="Articles grouped by topic",
+)
+def topics(
+    db: DBSession,
+    limit: int = Query(default=10, ge=1, le=100),
+):
+    return crud.get_articles_per_topic(
+        db=db,
+        limit=limit,
+    )
+
+
+@router.get(
+    "/analytics/daily",
+    response_model=list[DailyAnalyticsResponse],
+    summary="Daily article counts",
+)
+def daily(
+    db: DBSession,
+):
+    return crud.get_articles_per_day(db)

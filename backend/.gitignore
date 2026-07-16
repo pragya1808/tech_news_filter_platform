@@ -45,3 +45,12 @@ logs/
 
 # Misc
 *.swp
+
+
+node_modules/
+
+airflow/logs/
+
+postgres_data/
+
+*.pyc
