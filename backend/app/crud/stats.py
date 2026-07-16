@@ -1,4 +1,8 @@
+from sqlalchemy.orm import Session
+from sqlalchemy import select, func
 from datetime import datetime, UTC
+
+from backend.app.models import Article, Topic
 
 def get_stats(db: Session):
 

@@ -1,4 +1,3 @@
-// TODO: All analytics hooks return untyped data until backend defines schemas.
 import { useQuery } from '@tanstack/react-query'
 import { analyticsService } from '@/services'
 import { QUERY_KEYS } from '@/constants'

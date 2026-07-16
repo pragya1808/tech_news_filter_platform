@@ -22,7 +22,7 @@ export default function DashboardPage() {
   const [isRefreshing, setIsRefreshing] = useState(false)
 
   // KPI data
-  const { latest, topics, derived } = useDashboardKPIs()
+  const { latest, topics, stats, derived } = useDashboardKPIs()
 
   // Chart data
   const { daily, sources, topics: topicsAnalytics } = useDashboardCharts()
@@ -52,11 +52,16 @@ export default function DashboardPage() {
 
       {/* KPI row */}
       <KPIGrid
-        latestArticles={latest.data}
-        topics={topics.data}
-        articlesToday={derived.totalArticlesToday}
-        totalSources={derived.totalSources}
-        isLoading={latest.isLoading || topics.isLoading}
+          stats={stats.data}
+          latestArticles={latest.data}
+          topics={topics.data}
+          articlesToday={derived.totalArticlesToday}
+          totalSources={derived.totalSources}
+          isLoading={
+              latest.isLoading ||
+              topics.isLoading ||
+              stats.isLoading
+          }
       />
 
       {/* Charts */}

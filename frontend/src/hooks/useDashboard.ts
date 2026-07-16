@@ -23,13 +23,15 @@ export function useDashboardKPIs() {
   const topics = useTopics()
   const stats = useStats()
 
-  const derived = useMemo(() => {
-    const articles = latest.data ?? []
-    return {
-      totalArticlesToday: countArticlesToday(articles),
-      totalSources: countUniqueSources(articles),
-    }
-  }, [latest.data])
+  const derived = useMemo(() => ({
+    totalArticlesToday:
+      stats.data?.articles_today ??
+      countArticlesToday(latest.data ?? []),
+
+    totalSources:
+      stats.data?.total_sources ??
+      countUniqueSources(latest.data ?? []),
+  }), [stats.data, latest.data])
 
   return { latest, topics, stats, derived }
 }

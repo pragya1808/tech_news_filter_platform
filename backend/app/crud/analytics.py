@@ -105,6 +105,7 @@ def get_articles_per_day(db: Session):
             func.date(Article.published_at).label("date"),
             func.count(Article.id).label("count"),
         )
+        .where(Article.published_at.is_not(None))
         .group_by(func.date(Article.published_at))
         .order_by(func.date(Article.published_at))
     )
@@ -113,8 +114,9 @@ def get_articles_per_day(db: Session):
 
     return [
         {
-            "date": date,
+            "date": d,
             "count": count,
         }
-        for date, count in rows
+        for d, count in rows
+        if d is not None
     ]
