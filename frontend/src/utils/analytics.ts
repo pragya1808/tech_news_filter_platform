@@ -23,17 +23,37 @@ export function normalizeDailyData(raw: unknown): DailyDataPoint[] {
 /** Normalize /analytics/sources response when backend defines it. */
 export function normalizeSourcesData(raw: unknown): SourceDataPoint[] {
   if (!Array.isArray(raw)) return []
+
   return raw
-    .filter(r => r && typeof r.name === 'string' && typeof r.value === 'number')
-    .map(r => ({ name: r.name as string, value: r.value as number }))
+    .filter(
+      (r): r is { source: string; count: number } =>
+        !!r &&
+        typeof r === 'object' &&
+        typeof (r as any).source === 'string' &&
+        typeof (r as any).count === 'number'
+    )
+    .map(r => ({
+      name: r.source,
+      value: r.count,
+    }))
 }
 
 /** Normalize /analytics/topics response when backend defines it. */
 export function normalizeTopicsData(raw: unknown): TopicDataPoint[] {
   if (!Array.isArray(raw)) return []
+
   return raw
-    .filter(r => r && typeof r.name === 'string' && typeof r.count === 'number')
-    .map(r => ({ name: r.name as string, count: r.count as number }))
+    .filter(
+      (r): r is { topic: string; count: number } =>
+        !!r &&
+        typeof r === 'object' &&
+        typeof (r as any).topic === 'string' &&
+        typeof (r as any).count === 'number'
+    )
+    .map(r => ({
+      name: r.topic,
+      count: r.count,
+    }))
 }
 
 // ─── Fallback: derive from article list ─────────────────────────────────────

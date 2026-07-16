@@ -1,11 +1,20 @@
 // Analytics page data hook.
-// Priority: use backend analytics endpoints when they return meaningful data.
-// Fallback: derive all values from GET /articles + GET /topics.
-// TODO: Simplify this hook once backend analytics schemas are defined.
+// Uses backend overview endpoint for KPI cards.
+// Uses backend chart endpoints when available.
+// Falls back to deriving analytics from /articles until backend schemas mature.
+
 import { useMemo } from 'react'
-import { useAnalyticsDaily, useAnalyticsSources, useAnalyticsTopics } from './useAnalytics'
+
+import {
+  useAnalyticsOverview,
+  useAnalyticsDaily,
+  useAnalyticsSources,
+  useAnalyticsTopics,
+} from './useAnalytics'
+
 import { useArticles } from './useArticles'
 import { useTopics } from './useTopics'
+
 import {
   normalizeDailyData,
   normalizeSourcesData,
@@ -18,64 +27,133 @@ import {
 } from '@/utils/analytics'
 
 export function useAnalyticsPage() {
-  // Backend analytics endpoints (all return {} until backend defines schemas)
+  // Backend analytics endpoints
+  const overviewQuery = useAnalyticsOverview()
   const dailyQuery = useAnalyticsDaily()
   const sourcesQuery = useAnalyticsSources()
   const topicsQuery = useAnalyticsTopics()
 
-  // Fallback data sources
-  // Fetch max articles for richest possible derived analytics
+  // Fallback data
   const articlesQuery = useArticles({ limit: 100 })
   const topicListQuery = useTopics()
 
-  const articles = useMemo(() => articlesQuery.data?.items ?? [], [articlesQuery.data])
+  const articles = useMemo(
+    () => articlesQuery.data?.items ?? [],
+    [articlesQuery.data]
+  )
+
   const topicCount = topicListQuery.data?.length ?? 0
 
-  // ── Daily trend ────────────────────────────────────────────────────────────
+  // ------------------------------------------------------------------
+  // Daily Trend
+  // ------------------------------------------------------------------
+
   const dailyData = useMemo(() => {
-    const fromBackend = normalizeDailyData(dailyQuery.data)
-    // TODO: remove fallback once /analytics/daily returns real data
-    return fromBackend.length > 0 ? fromBackend : dailyFromArticles(articles)
+    const backend = normalizeDailyData(dailyQuery.data)
+
+    return backend.length > 0
+      ? backend
+      : dailyFromArticles(articles)
   }, [dailyQuery.data, articles])
 
-  // ── Sources distribution ───────────────────────────────────────────────────
+  // ------------------------------------------------------------------
+  // Sources
+  // ------------------------------------------------------------------
+
   const sourcesData = useMemo(() => {
-    const fromBackend = normalizeSourcesData(sourcesQuery.data)
-    // TODO: remove fallback once /analytics/sources returns real data
-    return fromBackend.length > 0 ? fromBackend : sourcesFromArticles(articles)
+    const backend = normalizeSourcesData(sourcesQuery.data)
+
+    return backend.length > 0
+      ? backend
+      : sourcesFromArticles(articles)
   }, [sourcesQuery.data, articles])
 
-  // ── Topics distribution ────────────────────────────────────────────────────
+  // ------------------------------------------------------------------
+  // Topics
+  // ------------------------------------------------------------------
+
   const topicsData = useMemo(() => {
-    const fromBackend = normalizeTopicsData(topicsQuery.data)
-    // TODO: remove fallback once /analytics/topics returns real data
-    return fromBackend.length > 0 ? fromBackend : topicsFromArticles(articles)
+    const backend = normalizeTopicsData(topicsQuery.data)
+
+    return backend.length > 0
+      ? backend
+      : topicsFromArticles(articles)
   }, [topicsQuery.data, articles])
 
-  // ── Source ranking table ───────────────────────────────────────────────────
-  const sourceRank = useMemo(() => sourceRankFromArticles(articles), [articles])
+  // ------------------------------------------------------------------
+  // Source Ranking
+  // ------------------------------------------------------------------
 
-  // ── Overview KPIs ──────────────────────────────────────────────────────────
-  const kpis = useMemo(() => kpisFromArticles(articles, topicCount), [articles, topicCount])
+  const sourceRank = useMemo(
+    () => sourceRankFromArticles(articles),
+    [articles]
+  )
 
-  const isLoading = articlesQuery.isLoading || topicListQuery.isLoading
-  const isError = articlesQuery.isError && topicListQuery.isError
+  // ------------------------------------------------------------------
+  // KPI Cards
+  // ------------------------------------------------------------------
+
+  const kpis = useMemo(() => {
+    const overview = overviewQuery.data
+
+    if (overview) {
+      return {
+        totalArticles: overview.total_articles,
+        totalTopics: overview.total_topics,
+        totalSources: overview.total_sources,
+        avgPerDay: overview.avg_articles_per_day,
+      }
+    }
+
+    return kpisFromArticles(articles, topicCount)
+  }, [overviewQuery.data, articles, topicCount])
+
+  // ------------------------------------------------------------------
+  // Page State
+  // ------------------------------------------------------------------
+
+  const isLoading =
+    overviewQuery.isLoading ||
+    articlesQuery.isLoading ||
+    topicListQuery.isLoading
+
+  const isError =
+    overviewQuery.isError &&
+    articlesQuery.isError &&
+    topicListQuery.isError
+
+  const refetch = async () => {
+    await Promise.all([
+      overviewQuery.refetch(),
+      dailyQuery.refetch(),
+      sourcesQuery.refetch(),
+      topicsQuery.refetch(),
+      articlesQuery.refetch(),
+      topicListQuery.refetch(),
+    ])
+  }
 
   return {
-    // chart data
+    // KPI cards
+    kpis,
+
+    // Charts
     dailyData,
     sourcesData,
     topicsData,
     sourceRank,
-    kpis,
-    // per-query state for individual chart error/loading
+
+    // Individual queries
+    overview: overviewQuery,
     daily: dailyQuery,
     sources: sourcesQuery,
     topics: topicsQuery,
     articles: articlesQuery,
-    // page-level state
+    topicList: topicListQuery,
+
+    // Page state
     isLoading,
     isError,
-    refetch: articlesQuery.refetch,
+    refetch,
   }
 }

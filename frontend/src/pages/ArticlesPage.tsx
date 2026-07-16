@@ -23,7 +23,7 @@ export default function ArticlesPage() {
     isError,
     refetch,
     topicsQuery,
-    derivedSources,
+    sourcesQuery,
     isSearching,
   } = useArticlesPage(filters)
 
@@ -42,7 +42,7 @@ export default function ArticlesPage() {
   }, [refetch])
 
   const handleSearch = useCallback(
-    (q: string) => setFilters({ search: q }),
+    (q: string) => setFilters({  q }),
     [setFilters],
   )
 
@@ -83,7 +83,7 @@ export default function ArticlesPage() {
       <ArticlesToolbar
         filters={filters}
         topics={topicsQuery.data ?? []}
-        sources={derivedSources}
+        sources={sourcesQuery.data ?? []}
         isSearchLoading={isSearching && isFetching}
         hasActiveFilters={hasActiveFilters}
         onSearchChange={handleSearch}
@@ -124,7 +124,7 @@ export default function ArticlesPage() {
             description={`Try different keywords or clear the search to browse all articles.`}
             action={
               <button
-                onClick={() => setFilters({ search: '' })}
+                onClick={() => setFilters({ q: '' })}
                 className="text-sm transition-colors"
                 style={{ color: 'var(--color-brand)' }}
               >

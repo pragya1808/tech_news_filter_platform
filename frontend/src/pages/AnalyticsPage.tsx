@@ -35,10 +35,9 @@ export default function AnalyticsPage() {
   }, [isLoading])
 
   const handleRefresh = useCallback(async () => {
-    await queryClient.invalidateQueries()
-    refetch()
+    await refetch()
     setLastRefreshed(new Date())
-  }, [queryClient, refetch])
+  }, [refetch])
 
   const retryDaily = useCallback(() => queryClient.invalidateQueries({ queryKey: QUERY_KEYS.analyticsDaily }), [queryClient])
   const retrySources = useCallback(() => queryClient.invalidateQueries({ queryKey: QUERY_KEYS.analyticsSources }), [queryClient])

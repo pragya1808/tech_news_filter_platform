@@ -1,22 +1,37 @@
-# Tech News Platform
+# 📰 Tech News Platform
 
-A data engineering project that automatically collects technology news from multiple sources, cleans and organizes the data, stores it in a database, and exposes it through a REST API.
+Tech News Platform is an application that automatically collects technology news from multiple trusted sources, organizes it into one place, and makes it easy to browse through a web interface and REST API.
 
-The goal of this project is to build a complete end-to-end data pipeline using modern data engineering tools.
+Instead of checking several websites every day, this platform continuously gathers new articles, processes them, stores them in a database, and keeps everything updated automatically.
 
 ---
 
-## What does this project do?
+## Why this project?
 
-Instead of manually visiting different websites for technology news, this application automatically:
+Technology news is spread across many websites like TechCrunch, Hacker News, Reddit, and various RSS feeds.
 
-- Collects articles from multiple news sources
-- Cleans and standardizes the data
-- Removes duplicate articles
-- Extracts useful metadata like keywords and companies
-- Stores everything in PostgreSQL
-- Makes the data available through a FastAPI backend
-- Runs automatically on a schedule using Apache Airflow
+This project brings all of that information together into a single platform where users can:
+
+- Read the latest technology news
+- Search articles
+- Filter by topic or source
+- View analytics about recent news
+- Access the data through an API
+
+The data is automatically updated on a schedule, so the platform always stays current.
+
+---
+
+## Features
+
+- 📰 Collects news from multiple sources
+- 🔄 Automatically updates articles
+- 🔍 Search for articles
+- 🏷 Browse articles by topic
+- 📊 View analytics and statistics
+- 🚀 REST API for developers
+- 🐳 Fully containerized with Docker
+- ⏰ Automated data pipeline using Apache Airflow
 
 ---
 
@@ -24,91 +39,49 @@ Instead of manually visiting different websites for technology news, this applic
 
 ```
 News Sources
-(RSS, Reddit, Hacker News)
-          │
-          ▼
-      Airflow ETL
-          │
-   Extract Articles
-          │
-          ▼
- Transform Data
- - Clean HTML
- - Remove duplicates
- - Normalize dates
- - Extract keywords
- - Detect companies
-          │
-          ▼
- Store in PostgreSQL
-          │
-          ▼
-     FastAPI Backend
-          │
-          ▼
-   REST API Endpoints
+      │
+      ▼
+Collect Articles
+      │
+      ▼
+Clean & Organize Data
+      │
+      ▼
+Store in Database
+      │
+      ▼
+REST API
+      │
+      ▼
+Web Dashboard
 ```
+
+The entire process runs automatically, ensuring that new articles are added without any manual work.
 
 ---
 
 ## Technologies Used
 
 - Python
+- FastAPI
 - PostgreSQL
 - SQLAlchemy
-- FastAPI
 - Apache Airflow
-- Docker & Docker Compose
-- RSS feeds
-- Reddit API
-- Hacker News API
+- React
+- Docker
 
 ---
 
-## Current Features
-
-- Automated data ingestion
-- Multiple news sources
-- Duplicate removal
-- Data cleaning
-- Keyword extraction
-- Company extraction
-- PostgreSQL storage
-- REST API
-- Scheduled ETL with Airflow
-- Fully containerized with Docker
-
----
-
-## Project Structure
-
-```
-tech_news_platform/
-│
-├── airflow/          # Airflow DAGs and configuration
-├── app/              # FastAPI application
-├── data/             # Local data files
-├── docker/           # Dockerfiles
-├── etl/              # Extract, Transform, Load pipeline
-├── tests/            # Tests
-│
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
-```
-
----
-
-## Running the project
+## Getting Started
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/pragya1808/tech_news_filter_platform.git
+git clone <repository-url>
 cd tech_news_platform
 ```
 
-### Start all services
+### Start the application
 
 ```bash
 docker compose up --build
@@ -117,33 +90,34 @@ docker compose up --build
 This starts:
 
 - PostgreSQL database
-- FastAPI server
-- Airflow scheduler
-- Airflow webserver
+- FastAPI backend
+- Apache Airflow
+- React frontend
 
 ---
 
 ## Access the application
 
-### FastAPI
+### Frontend
 
 ```
-http://localhost:8000
+http://localhost:5173
 ```
 
-Interactive API documentation:
+### API Documentation
 
 ```
-http://localhost:8000/docs
+http://localhost:8001/docs
+uvicorn backend.app.main:app --reload --port 8001
 ```
 
-### Airflow
+### Airflow Dashboard
 
 ```
 http://localhost:8080
 ```
 
-Default credentials:
+Default login:
 
 ```
 Username: admin
@@ -152,71 +126,46 @@ Password: admin
 
 ---
 
-## Data Pipeline
+## API Overview
 
-The Airflow DAG runs the following steps:
+The API provides endpoints to:
 
-1. Fetch articles from multiple sources
-2. Clean and normalize the data
-3. Remove duplicate articles
-4. Extract keywords and company names
-5. Store the processed data in PostgreSQL
+- Retrieve all articles
+- View the latest articles
+- Search articles
+- Browse topics
+- View analytics
+- Access platform statistics
 
-The pipeline can be triggered manually or scheduled to run automatically.
+Interactive API documentation is available through Swagger.
 
 ---
 
-## Example API Endpoints
+## Project Structure
 
 ```
-GET /articles
+airflow/      → Workflow automation
+app/          → FastAPI backend
+etl/          → Data collection and processing
+frontend/     → React web application
+docker/       → Docker configuration
 ```
-
-Returns all stored articles.
-
-```
-GET /articles/{id}
-```
-
-Returns a specific article.
-
-```
-GET /health
-```
-
-Checks whether the API is running.
 
 ---
 
 ## Future Improvements
 
-- NewsAPI integration
-- React dashboard
-- Elasticsearch for full-text search
-- Machine Learning based article categorization
+Some planned features include:
+
+- Better search capabilities
+- Trending topics
+- Company and keyword analysis
 - Sentiment analysis
-- Named Entity Recognition
-- Docker deployment to cloud
-- CI/CD pipeline using GitHub Actions
-- Monitoring with Prometheus and Grafana
-
----
-
-## Why this project?
-
-This project demonstrates practical data engineering concepts including:
-
-- ETL Pipelines
-- Data Cleaning
-- Workflow Orchestration
-- REST API Development
-- Database Design
-- Docker Containerization
-- Automated Scheduling
-- End-to-End Data Pipelines
+- User authentication
+- Cloud deployment
 
 ---
 
 ## License
 
-This project is intended for learning and portfolio purposes.
+This project was built for learning, experimentation, and portfolio purposes.
