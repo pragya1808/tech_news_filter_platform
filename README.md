@@ -104,7 +104,7 @@ tech_news_platform/
 ### Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/pragya1808/tech_news_filter_platform.git
 cd tech_news_platform
 ```
 
