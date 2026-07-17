@@ -69,13 +69,29 @@ class PostgresLoader:
                     text(
                         """
                         INSERT INTO articles
-                        (title, summary, author, source, url,
-                         published_at, extracted_at)
+                        (
+                            title,
+                            summary,
+                            author,
+                            source,
+                            url,
+                            published_at,
+                            extracted_at
+                        )
 
                         VALUES
-                        (:title, :summary, :author,
-                         :source, :url,
-                         :published_at, :extracted_at)
+                        (
+                            :title,
+                            :summary,
+                            :author,
+                            :source,
+                            :url,
+                            :published_at,
+                            :extracted_at
+                        )
+
+                        ON CONFLICT (url)
+                        DO NOTHING
 
                         RETURNING id
                         """
@@ -93,7 +109,7 @@ class PostgresLoader:
                             article.get("extracted_at")
                         ),
                     },
-                ).scalar_one()
+                ).scalar()
 
                 # Handle topics
                 for topic in article.get("topics", []):

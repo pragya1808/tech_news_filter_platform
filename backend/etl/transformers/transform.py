@@ -1,6 +1,6 @@
 import pandas as pd
-from backend.etl.transformers.topic_classifier import classify_topics
-from backend.etl.transformers.text_utils import clean_html
+from etl.transformers.topic_classifier import classify_topics
+from etl.transformers.text_utils import clean_html
 
 
 def classify(row):

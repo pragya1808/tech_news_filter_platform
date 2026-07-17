@@ -3,9 +3,9 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
-from backend.app.core.dependencies import get_db
-from backend.app.crud import analytics as crud
-from backend.app.schemas import (
+from app.core.dependencies import get_db
+from app.crud import analytics as crud
+from app.schemas import (
     AnalyticsOverviewResponse,
     SourceAnalyticsResponse,
     TopicAnalyticsResponse,

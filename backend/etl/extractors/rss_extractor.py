@@ -1,7 +1,7 @@
 import feedparser
 from datetime import datetime, UTC
 
-from backend.etl.config import RSS_FEEDS
+from etl.config import RSS_FEEDS
 
 
 def fetch_feed(url: str):

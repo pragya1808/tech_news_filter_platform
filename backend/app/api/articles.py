@@ -3,9 +3,9 @@ from datetime import date
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 
-from backend.app.core.dependencies import get_db
-from backend.app.crud import articles as crud
-from backend.app.schemas import (
+from app.core.dependencies import get_db
+from app.crud import articles as crud
+from app.schemas import (
     ArticleResponse,
     ArticleListResponse,
 )

@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from backend.app.api.sources import router as sources_router
-from backend.app.api.articles import router as articles_router
-from backend.app.api.topics import router as topics_router
-from backend.app.api.stats import router as stats_router
-from backend.app.api.health import router as health_router
-from backend.app.api import analytics
+from app.api.sources import router as sources_router
+from app.api.articles import router as articles_router
+from app.api.topics import router as topics_router
+from app.api.stats import router as stats_router
+from app.api.health import router as health_router
+from app.api import analytics
 from fastapi.middleware.cors import CORSMiddleware
 
 

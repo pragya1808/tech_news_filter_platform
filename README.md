@@ -32,6 +32,7 @@ The data is automatically updated on a schedule, so the platform always stays cu
 - 🚀 REST API for developers
 - 🐳 Fully containerized with Docker
 - ⏰ Automated data pipeline using Apache Airflow
+- 🔄 Scheduled ETL pipeline using Apache Airflow
 
 ---
 
@@ -71,6 +72,47 @@ The entire process runs automatically, ensuring that new articles are added with
 - Docker
 
 ---
+# ⚙️ Environment Variables
+
+## Backend
+Create a file:
+```
+backend/.env
+```
+You can copy the example file:
+```bash
+cp backend/.env.example backend/.env
+```
+Example:
+```env
+DATABASE_URL=postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
+AIRFLOW_URL=postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
+```
+If you're using external APIs (for example NewsAPI), add the required API keys here as well.
+
+---
+## Frontend
+
+Create:
+
+```
+frontend/.env
+```
+
+or copy
+
+```bash
+cp frontend/.env.example frontend/.env
+```
+
+Example:
+
+```env
+VITE_API_BASE_URL=http://localhost:8000
+VITE_API_TIMEOUT=10000
+```
+
+---
 
 ## Getting Started
 
@@ -84,7 +126,14 @@ cd tech_news_platform
 ### Start the application
 
 ```bash
-docker compose up --build
+cd backend
+docker compose up --build -d
+```
+in a new terminal
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
 This starts:
@@ -107,8 +156,7 @@ http://localhost:5173
 ### API Documentation
 
 ```
-http://localhost:8001/docs
-uvicorn backend.app.main:app --reload --port 8001
+http://localhost:8000/docs
 ```
 
 ### Airflow Dashboard
@@ -123,7 +171,16 @@ Default login:
 Username: admin
 Password: admin
 ```
+## Loading Initial Data
 
+After starting the application:
+
+1. Open Airflow at `http://localhost:8080`
+2. Log in using the default credentials.
+3. Enable the `tech_news_pipeline` DAG.
+4. Trigger the DAG once manually (or wait for the scheduled run).
+
+Once the pipeline completes, the dashboard will display the latest articles and analytics.
 ---
 
 ## API Overview

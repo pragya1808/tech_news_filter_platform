@@ -4,7 +4,7 @@ from enum import Enum
 from sqlalchemy import asc, desc, func, or_, select
 from sqlalchemy.orm import Session, selectinload
 
-from backend.app.models import Article, Topic
+from app.models import Article, Topic
 
 
 class SortField(str, Enum):

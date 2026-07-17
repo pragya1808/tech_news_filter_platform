@@ -1,6 +1,6 @@
 import feedparser
 from datetime import datetime, UTC
-from backend.etl.config import REDDIT_FEEDS
+from etl.config import REDDIT_FEEDS
 
 
 def get_reddit_articles():

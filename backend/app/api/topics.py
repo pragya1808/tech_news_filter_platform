@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from sqlalchemy.orm import Session
 
-from backend.app.core.database import SessionLocal
-from backend.app.schemas import TopicResponse
-from backend.app.crud import topics as crud
+from app.core.database import SessionLocal
+from app.schemas import TopicResponse
+from app.crud import topics as crud
 
 router = APIRouter(tags=["Topics"])
 

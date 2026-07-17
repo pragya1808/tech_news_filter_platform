@@ -6,7 +6,7 @@ sys.path.insert(0, "/opt/project")
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from backend.etl.run_pipeline import main
+from etl.run_pipeline import main
 
 with DAG(
     dag_id="tech_news_pipeline",

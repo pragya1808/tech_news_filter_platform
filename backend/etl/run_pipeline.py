@@ -1,6 +1,6 @@
-from backend.etl.merge import merge_articles
-from backend.etl.transformers.transform import transform_articles
-from backend.etl.loaders.postgres_loader_airflow import PostgresLoader
+from etl.merge import merge_articles
+from etl.transformers.transform import transform_articles
+from etl.loaders.postgres_loader_airflow import PostgresLoader
 
 
 def main():

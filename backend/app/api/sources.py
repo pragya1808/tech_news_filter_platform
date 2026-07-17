@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 from sqlalchemy.orm import Session
 
-from backend.app.core.database import SessionLocal
-from backend.app.crud import sources as crud
+from app.core.database import SessionLocal
+from app.crud import sources as crud
 
 router = APIRouter(tags=["Sources"])
 

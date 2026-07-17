@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime, UTC
-from backend.etl.config import TOP_STORIES_URL,ITEM_URL
+from etl.config import TOP_STORIES_URL,ITEM_URL
 
 
 

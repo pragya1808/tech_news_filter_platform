@@ -7,8 +7,8 @@ from typing import Any
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from backend.app.core.database import SessionLocal
-from backend.app.models import Article, Topic
+from app.core.database import SessionLocal
+from app.models import Article, Topic
 
 
 class PostgresLoader:

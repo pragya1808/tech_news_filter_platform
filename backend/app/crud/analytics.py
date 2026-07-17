@@ -1,7 +1,7 @@
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 
-from backend.app.models import Article, Topic
+from app.models import Article, Topic
 
 
 def get_overview(db: Session):

@@ -1,5 +1,5 @@
-from backend.etl.config import TOPIC_KEYWORDS
-from backend.etl.transformers.text_utils import contains_keyword
+from etl.config import TOPIC_KEYWORDS
+from etl.transformers.text_utils import contains_keyword
 
 
 def classify_topics(title: str, summary: str = ""):

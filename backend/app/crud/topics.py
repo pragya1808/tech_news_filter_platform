@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from backend.app.models import Topic
+from app.models import Topic
 
 
 def get_topics(db: Session):
