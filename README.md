@@ -119,7 +119,7 @@ VITE_API_TIMEOUT=10000
 ### Clone the repository
 
 ```bash
-git clone <https://github.com/pragya1808/tech_news_filter_platform>
+git clone https://github.com/pragya1808/tech_news_filter_platform
 cd tech_news_platform
 ```
 
