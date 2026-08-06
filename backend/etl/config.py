@@ -35,6 +35,7 @@ RSS_FEEDS = {
 #hackernews
 TOP_STORIES_URL = "https://hacker-news.firebaseio.com/v0/topstories.json"
 ITEM_URL = "https://hacker-news.firebaseio.com/v0/item/{}.json"
+LIMIT=50
 #reddit
 REDDIT_FEEDS = {
     "technology": "https://www.reddit.com/r/technology/new/.rss",

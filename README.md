@@ -79,10 +79,7 @@ Create a file:
 ```
 backend/.env
 ```
-You can copy the example file:
-```bash
-cp backend/.env.example backend/.env
-```
+
 Example:
 ```env
 DATABASE_URL=postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
@@ -101,9 +98,6 @@ frontend/.env
 
 or copy
 
-```bash
-cp frontend/.env.example frontend/.env
-```
 
 Example:
 
@@ -160,7 +154,6 @@ http://localhost:8000/docs
 ```
 
 ### Airflow Dashboard
-
 ```
 http://localhost:8080
 ```
