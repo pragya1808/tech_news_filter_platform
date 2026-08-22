@@ -19,19 +19,23 @@ function countUniqueSources(articles: ArticleResponse[]): number {
 }
 
 export function useDashboardKPIs() {
-  const latest = useLatestArticles(100) // fetch 100 to get better coverage
+  const latest = useLatestArticles(100)
   const topics = useTopics()
   const stats = useStats()
 
-  const derived = useMemo(() => ({
-    totalArticlesToday:
-      stats.data?.articles_today ??
-      countArticlesToday(latest.data ?? []),
+  const derived = useMemo(() => {
+    const articles = latest.data ?? []
 
-    totalSources:
-      stats.data?.total_sources ??
-      countUniqueSources(latest.data ?? []),
-  }), [stats.data, latest.data])
+    return {
+      totalArticlesToday:
+        stats.data?.articles_today ??
+        countArticlesToday(articles),
+
+      totalSources:
+        stats.data?.total_sources ??
+        countUniqueSources(articles),
+    }
+  }, [stats.data, latest.data])
 
   return { latest, topics, stats, derived }
 }

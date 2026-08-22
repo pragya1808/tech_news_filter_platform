@@ -144,7 +144,7 @@ This starts:
 ### Frontend
 
 ```
-http://localhost:5173
+http://localhost:3000
 ```
 
 ### API Documentation

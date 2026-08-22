@@ -20,7 +20,7 @@ export const ArticleFullCard = memo(function ArticleFullCard({ article }: Articl
         >
           <Clock className="h-3 w-3" aria-hidden />
           <time dateTime={article.published_at ?? article.extracted_at}>
-            {formatRelativeDate(article.published_at)}
+            {formatRelativeDate(article.published_at ?? article.extracted_at)}
           </time>
         </span>
       </div>
@@ -57,7 +57,7 @@ export const ArticleFullCard = memo(function ArticleFullCard({ article }: Articl
         {article.published_at && (
           <span className="flex items-center gap-1">
             <Calendar className="h-3 w-3" aria-hidden />
-            <time dateTime={article.published_at}>{formatDate(article.published_at)}</time>
+            <time dateTime={article.published_at ?? article.extracted_at}>{formatDate(article.published_at ?? article.extracted_at)}</time>
           </span>
         )}
       </div>

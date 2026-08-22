@@ -53,29 +53,33 @@ services:
   # -------------------------
   # FastAPI
   # -------------------------
-
   fastapi:
     build:
       context: .
       dockerfile: docker/fastapi.Dockerfile
-
     container_name: tech-news-api
-
     depends_on:
       db-init:
         condition: service_completed_successfully
-
     ports:
       - "8000:8000"
-
     environment:
       DATABASE_URL: postgresql+psycopg2://technews:technews@tech-postgres:5432/tech_news
-
     volumes:
       - .:/app
-
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:8000/docs')"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
     restart: unless-stopped
-
   # -------------------------
   # Airflow Metadata DB
   # -------------------------
@@ -195,7 +199,24 @@ services:
       - ./airflow/plugins:/opt/airflow/plugins
       - .:/opt/project
 
+
+
+  # -------------------------
+  # Frontend
+  # -------------------------
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: tech-news-frontend
+    depends_on:
+      fastapi:
+        condition: service_healthy
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+
 volumes:
   tech-news-db:
   airflow-db:
-  airflow-logs:
+  airflow-logs:  

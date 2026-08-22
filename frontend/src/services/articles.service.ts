@@ -18,8 +18,13 @@ export const articlesService = {
     return data
   },
 
-  getLatestArticles: async (params?: LatestArticlesParams): Promise<ArticleResponse[]> => {
-    const { data } = await apiClient.get<ArticleResponse[]>('/articles/latest', { params })
+  getLatestArticles: async (
+    params?: LatestArticlesParams
+  ): Promise<ArticleResponse[]> => {
+    const { data } = await apiClient.get<ArticleResponse[]>(
+      '/articles/latest',
+      { params }
+    )
     return data
   },
 

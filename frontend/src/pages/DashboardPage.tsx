@@ -17,6 +17,8 @@ import {
 } from '@/utils'
 import { QUERY_KEYS } from '@/constants'
 
+
+
 export default function DashboardPage() {
   const queryClient = useQueryClient()
   const [isRefreshing, setIsRefreshing] = useState(false)
@@ -29,15 +31,17 @@ export default function DashboardPage() {
 
   // Latest articles feed (limit 8)
   const latestFeed = useLatestArticles(8)
+  const latestArticles = latest.data ?? []
+  const latestFeedArticles = latestFeed.data ?? []
 
   // Normalize analytics data; fall back to deriving from article list
   const dailyData = normalizeDailyData(daily.data)
   const sourcesData = normalizeSourcesData(sources.data).length > 0
     ? normalizeSourcesData(sources.data)
-    : sourcesFromArticles(latest.data ?? [])
+    : sourcesFromArticles(latestArticles)
   const topicsData = normalizeTopicsData(topicsAnalytics.data).length > 0
     ? normalizeTopicsData(topicsAnalytics.data)
-    : topicsFromArticles(latest.data ?? [])
+    : topicsFromArticles(latestArticles)
 
   async function handleRefresh() {
     setIsRefreshing(true)
@@ -53,7 +57,7 @@ export default function DashboardPage() {
       {/* KPI row */}
       <KPIGrid
           stats={stats.data}
-          latestArticles={latest.data}
+          latestArticles={latestArticles}
           topics={topics.data}
           articlesToday={derived.totalArticlesToday}
           totalSources={derived.totalSources}
@@ -84,7 +88,7 @@ export default function DashboardPage() {
 
       {/* Latest articles feed */}
       <LatestArticlesFeed
-        articles={latestFeed.data}
+        articles={latestFeedArticles}
         isLoading={latestFeed.isLoading}
         isError={latestFeed.isError}
         onRetry={() => queryClient.invalidateQueries({ queryKey: QUERY_KEYS.latestArticles })}

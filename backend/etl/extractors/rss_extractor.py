@@ -7,6 +7,23 @@ from etl.config import RSS_FEEDS
 
 logger = logging.getLogger(__name__)
 
+def extract_published_at(entry):
+    parsed = entry.get("published_parsed")
+
+    if parsed:
+        return datetime(*parsed[:6], tzinfo=UTC).isoformat()
+
+    parsed = entry.get("updated_parsed")
+
+    if parsed:
+        return datetime(*parsed[:6], tzinfo=UTC).isoformat()
+
+    parsed=entry.get("pubDate")
+    if parsed:
+            return datetime(*parsed[:6], tzinfo=UTC).isoformat()
+
+    return None
+
 
 def fetch_feed(url: str):
     return feedparser.parse(url)
@@ -35,7 +52,7 @@ def get_rss_articles():
                             "summary",
                             entry.get("description", ""),
                         ),
-                        "published_at": entry.get("published", ""),
+                        "published_at": extract_published_at(entry),
                         "url": entry.get("link", ""),
                         "source": source,
                         "extracted_at": datetime.now(UTC).isoformat(),
