@@ -123,12 +123,6 @@ cd tech_news_platform
 cd backend
 docker compose up --build -d
 ```
-in a new terminal
-```bash
-cd frontend
-npm install
-npm run dev
-```
 
 This starts:
 
